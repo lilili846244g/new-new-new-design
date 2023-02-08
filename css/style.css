@@ -409,7 +409,7 @@ html {
   height: 600px;
   -o-object-fit: contain;
      object-fit: contain;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
@@ -587,7 +587,7 @@ html {
   height: 600px;
   -o-object-fit: contain;
      object-fit: contain;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
@@ -766,7 +766,7 @@ html {
   height: 600px;
   -o-object-fit: contain;
      object-fit: contain;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
@@ -944,7 +944,7 @@ html {
   height: 600px;
   -o-object-fit: contain;
      object-fit: contain;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
