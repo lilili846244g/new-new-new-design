@@ -12,13 +12,14 @@
   --background-color-5: rgba(38, 38, 38, 1);
   --text-color-0: rgba(255, 255, 255, 0.6);
   --text-color-1: rgba(219, 178, 178, 1);
-  --text-color-2: rgba(255, 244, 201, 1.0);
-  --text-color-3: rgba(189, 217, 228, 1.0);
-  --text-color-4: rgba(119, 208, 205, 1.0);
+  --text-color-2: rgba(255, 244, 201, 1);
+  --text-color-3: rgba(189, 217, 228, 1);
+  --text-color-4: rgba(119, 208, 205, 1);
   --title-fontz-1-4: 80px;
   --Content-fontz-1-4: 48px;
   --soso-h1: 48px;
-  --soso-p: 16px --footer: rgb(248, 238, 238);
+  --soso-p: 16px;
+  --footer: rgb(248, 238, 238);
 }
 
 * {
@@ -95,8 +96,8 @@ html {
   height: 40px;
   transition: 0.3s ease;
   /*    &:hover {
-      transform: scale(1.5);
-  }*/
+                  transform: scale(1.5);
+              }*/
 }
 .fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu a {
   text-decoration: none;
@@ -197,8 +198,8 @@ html {
   height: 40px;
   transition: 0.3s ease;
   /*    &:hover {
-      transform: scale(1.5);
-  }*/
+            transform: scale(1.5);
+        }*/
 }
 .ts-menu li {
   display: flex;
