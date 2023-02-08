@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/******************  section 1 - section 4 **********************/
+/******************  section 1 - section 4 end  **********************/
+/***************** 企業責任-1 -3  ***********************************/
+/***************** 企業責任-1 -3 end ***********************************/
 :root {
   --background-color-0: rgba(38, 38, 38, 1);
   --background-color-1: rgba(139, 69, 69, 1);
@@ -8,19 +12,15 @@
   --background-color-5: rgba(38, 38, 38, 1);
   --text-color-0: rgba(255, 255, 255, 0.6);
   --text-color-1: rgba(219, 178, 178, 1);
-  --text-color-2: rgba(43, 43, 43, 1);
-  --text-color-3: rgba(43, 43, 43, 1);
-  --text-color-4: rgba(190, 218, 229, 1);
+  --text-color-2: rgba(255, 244, 201, 1.0);
+  --text-color-3: rgba(189, 217, 228, 1.0);
+  --text-color-4: rgba(119, 208, 205, 1.0);
   --title-fontz-1-4: 80px;
   --Content-fontz-1-4: 48px;
-  --soso-fontz: 30px;
-  --footer: rgb(248, 238, 238);
+  --soso-h1: 48px;
+  --soso-p: 16px --footer: rgb(248, 238, 238);
 }
 
-/******************  section 1 - section 4 **********************/
-/******************  section 1 - section 4 end  **********************/
-/***************** 企業責任-1 -3  ***********************************/
-/***************** 企業責任-1 -3 end ***********************************/
 * {
   box-sizing: border-box;
 }
@@ -95,8 +95,8 @@ html {
   height: 40px;
   transition: 0.3s ease;
   /*    &:hover {
-                  transform: scale(1.5);
-              }*/
+      transform: scale(1.5);
+  }*/
 }
 .fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu a {
   text-decoration: none;
@@ -197,8 +197,8 @@ html {
   height: 40px;
   transition: 0.3s ease;
   /*    &:hover {
-            transform: scale(1.5);
-        }*/
+      transform: scale(1.5);
+  }*/
 }
 .ts-menu li {
   display: flex;
@@ -212,6 +212,11 @@ html {
   font-size: 30px;
   color: #fff;
   font-weight: 300;
+}
+@media (min-width: 1300px) and (max-width: 1500px) {
+  .ts-menu li a {
+    font-size: 24px;
+  }
 }
 @media (min-width: 600px) and (max-width: 1299px) {
   .ts-menu li a {
@@ -250,6 +255,7 @@ html {
 .ts-hero__section-0 {
   width: 100%;
   height: auto !important;
+  max-height: 120vh;
   position: relative;
 }
 .ts-hero__section-0 .ts-text-con .hero-bg-img {
@@ -263,6 +269,7 @@ html {
   width: 100%;
   height: 100%;
   position: absolute;
+  background-color: var(--background-color-0);
   left: 0;
   top: 0;
   opacity: 0.68;
@@ -361,7 +368,7 @@ html {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 @media (min-width: 1399px) and (max-width: 1850px) {
   .ts-hero__section-1-hero .sec1-hero-title-img {
@@ -447,7 +454,7 @@ html {
     font-size: 70px;
   }
 }
-@media (min-width: 900px) and (max-width: 1299px) {
+@media (min-width: 900px) and (max-width: 1398px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 60px;
   }
@@ -539,7 +546,7 @@ html {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 @media (min-width: 1399px) and (max-width: 1850px) {
   .ts-hero__section-2-hero .sec1-hero-title-img {
@@ -625,7 +632,7 @@ html {
     font-size: 70px;
   }
 }
-@media (min-width: 900px) and (max-width: 1299px) {
+@media (min-width: 900px) and (max-width: 1398px) {
   .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 60px;
   }
@@ -718,7 +725,7 @@ html {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 @media (min-width: 1399px) and (max-width: 1850px) {
   .ts-hero__section-3-hero .sec1-hero-title-img {
@@ -804,7 +811,7 @@ html {
     font-size: 70px;
   }
 }
-@media (min-width: 900px) and (max-width: 1299px) {
+@media (min-width: 900px) and (max-width: 1398px) {
   .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 60px;
   }
@@ -896,7 +903,7 @@ html {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 @media (min-width: 1399px) and (max-width: 1850px) {
   .ts-hero__section-4-hero .sec1-hero-title-img {
@@ -982,7 +989,7 @@ html {
     font-size: 70px;
   }
 }
-@media (min-width: 900px) and (max-width: 1299px) {
+@media (min-width: 900px) and (max-width: 1398px) {
   .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 60px;
   }
@@ -1062,85 +1069,217 @@ html {
   width: 100%;
   height: auto !important;
 }
-.ts-hero__section-5 .container .left img {
-  border-radius: 24px;
-  width: 100%;
-  height: 50vh;
+.ts-hero__section-5 .container {
+  min-height: 100vh;
+  padding-top: 150px;
 }
-@media (min-width: 200px) and (max-width: 767px) {
-  .ts-hero__section-5 .container .left img {
-    width: 100%;
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-5 .container {
+    padding-top: 0px !important;
   }
 }
-.ts-hero__section-5 .container .right .so-logo {
-  width: 150px;
-  height: 150px;
+.ts-hero__section-5 .container .section-5-left {
+  width: 100%;
+  height: 45vh;
+  margin-top: 87px;
 }
-.ts-hero__section-5 .container .right h1 {
+.ts-hero__section-5 .container .section-5-left img {
+  width: 70%;
+  height: 70%;
+  border-radius: 36px;
+  float: right;
+}
+@media (min-width: 1399px) and (max-width: 1850px) {
+  .ts-hero__section-5 .container .section-5-left img {
+    width: 60%;
+    height: 60%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-5 .container .section-5-left img {
+    width: 55%;
+    height: 55%;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-5 .container .section-5-left img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+}
+.ts-hero__section-5 .container .section-5-right {
+  width: 100%;
+  height: auto;
+  padding: 0 150px;
+}
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-5 .container .section-5-right {
+    padding: 0 100px;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-5 .container .section-5-right {
+    padding: 0px;
+  }
+}
+.ts-hero__section-5 .container .section-5-right .so-logo {
+  width: 100px;
+  height: 100px;
+}
+.ts-hero__section-5 .container .section-5-right h1 {
   color: #fff;
-  font-size: var(--soso-fontz);
+  font-size: var(--soso-h1);
   padding: 15px 0;
+  font-weight: 700;
 }
-.ts-hero__section-5 .container .right p {
+.ts-hero__section-5 .container .section-5-right p {
   color: #fff;
+  font-size: var(--soso-p);
+  line-height: 30px;
+  text-align: justify;
 }
 
-/*********************** 企業責任-2 section-6  **************************************/
+/*********************** 企業責任-2 section-5  **************************************/
 .ts-hero__section-6-hero {
   width: 100%;
-  height: auto !important;
-  background-color: var(--background-color-5);
+  min-height: 100vh;
 }
-.ts-hero__section-6-hero .container .left .so-logo {
-  width: 150px;
-  height: 150px;
+.ts-hero__section-6-hero .container {
+  min-height: 100vh;
+  padding-top: 150px;
 }
-.ts-hero__section-6-hero .container .left h1 {
-  color: #fff;
-  font-size: var(--soso-fontz);
-  padding: 15px 0;
-}
-.ts-hero__section-6-hero .container .left p {
-  color: #fff;
-}
-.ts-hero__section-6-hero .container .right img {
-  border-radius: 24px;
+.ts-hero__section-6-hero .container .section-6-left {
   width: 100%;
-  height: 50vh;
+  height: auto;
+  padding: 0 120px;
 }
-@media (min-width: 200px) and (max-width: 767px) {
-  .ts-hero__section-6-hero .container .right img {
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-6-hero .container .section-6-left {
+    padding: 0 80px;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-6-hero .container .section-6-left {
+    padding: 0px;
+  }
+}
+.ts-hero__section-6-hero .container .section-6-left .so-logo {
+  width: 100px;
+  height: 100px;
+}
+.ts-hero__section-6-hero .container .section-6-left h1 {
+  color: #fff;
+  font-size: var(--soso-h1);
+  padding: 15px 0;
+  font-weight: 700;
+}
+.ts-hero__section-6-hero .container .section-6-left p {
+  color: #fff;
+  font-size: var(--soso-p);
+  line-height: 30px;
+  text-align: justify;
+}
+.ts-hero__section-6-hero .container .section-6-right {
+  width: 100%;
+  height: 45vh;
+  margin-top: 87px;
+}
+.ts-hero__section-6-hero .container .section-6-right img {
+  width: 110%;
+  height: 84%;
+  border-radius: 36px;
+}
+@media (min-width: 1399px) and (max-width: 1850px) {
+  .ts-hero__section-6-hero .container .section-6-right img {
+    width: 85%;
+    height: 85%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-6-hero .container .section-6-right img {
+    width: 80%;
+    height: 80%;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-6-hero .container .section-6-right img {
     width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
   }
 }
 
-/*********************** 企業責任-3 section-7  **************************************/
+/*********************** 企業責任-3 section-5  **************************************/
 .ts-hero__section-7-hero {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-5);
 }
-.ts-hero__section-7-hero .container .left img {
-  border-radius: 24px;
+.ts-hero__section-7-hero .container {
+  min-height: 100vh;
+  padding-top: 150px;
+}
+.ts-hero__section-7-hero .container .section-7-left {
   width: 100%;
-  height: 50vh;
+  height: 45vh;
+  margin-top: 87px;
 }
-@media (min-width: 200px) and (max-width: 767px) {
-  .ts-hero__section-7-hero .container .left img {
-    width: 100%;
+.ts-hero__section-7-hero .container .section-7-left img {
+  width: 96%;
+  height: 80%;
+  border-radius: 36px;
+  float: right;
+  margin-top: -53px;
+}
+@media (min-width: 1399px) and (max-width: 1850px) {
+  .ts-hero__section-7-hero .container .section-7-left img {
+    width: 80%;
+    height: 80%;
   }
 }
-.ts-hero__section-7-hero .container .right .so-logo {
-  width: 150px;
-  height: 150px;
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-7-hero .container .section-7-left img {
+    width: 80%;
+    height: 80%;
+  }
 }
-.ts-hero__section-7-hero .container .right h1 {
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-7-hero .container .section-7-left img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+}
+.ts-hero__section-7-hero .container .section-7-right {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+}
+@media (min-width: 992px) and (max-width: 1398px) {
+  .ts-hero__section-7-hero .container .section-7-right {
+    padding: 0 80px;
+  }
+}
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-7-hero .container .section-7-right {
+    padding: 0px;
+  }
+}
+.ts-hero__section-7-hero .container .section-7-right .so-logo {
+  width: 100px;
+  height: 100px;
+}
+.ts-hero__section-7-hero .container .section-7-right h1 {
   color: #fff;
-  font-size: var(--soso-fontz);
+  font-size: var(--soso-h1);
   padding: 15px 0;
+  font-weight: 700;
 }
-.ts-hero__section-7-hero .container .right p {
+.ts-hero__section-7-hero .container .section-7-right p {
   color: #fff;
+  font-size: var(--soso-p);
+  line-height: 30px;
+  text-align: justify;
 }
 
 footer {
