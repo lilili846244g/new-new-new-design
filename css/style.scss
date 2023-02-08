@@ -1,3 +1,21 @@
+:root {
+  --background-color-0: rgba(38, 38, 38, 1);
+  --background-color-1: rgba(139, 69, 69, 1);
+  --background-color-2: rgba(209, 154, 0, 1);
+  --background-color-3: rgba(139, 69, 69, 1);
+  --background-color-4: rgba(44, 86, 104, 1);
+  --background-color-5: rgba(38, 38, 38, 1);
+  --text-color-0: rgba(255, 255, 255, 0.6);
+  --text-color-1: rgba(219, 178, 178, 1);
+  --text-color-2: rgba(43, 43, 43, 1);
+  --text-color-3: rgba(43, 43, 43, 1);
+  --text-color-4: rgba(190, 218, 229, 1);
+  --title-fontz-1-4: 80px;
+  --Content-fontz-1-4: 48px;
+  --soso-fontz: 30px;
+  --footer: rgb(248, 238, 238);
+}
+
 /******************  section 1 - section 4 **********************/
 
 @mixin section-hero-text-img {
@@ -34,6 +52,7 @@
   width: 600px;
   height: 600px;
   object-fit: contain;
+  mix-blend-mode: overlay;
   clip-path: polygon(
     89.07% 67.05%,
     49.57% 90.88%,
@@ -166,38 +185,20 @@
 
 /***************** 企業責任-1 -3 end ***********************************/
 
-:root {
-  --background-color-0: rgba(38, 38, 38, 1);
-  --background-color-1: rgba(139, 69, 69, 1);
-  --background-color-2: rgba(209, 154, 0, 1);
-  --background-color-3: rgba(139, 69, 69, 1);
-  --background-color-4: rgba(44, 86, 104, 1);
-  --background-color-5: rgba(38, 38, 38, 1);
-  --text-color-0: rgba(255, 255, 255, 0.6);
-  --text-color-1: rgba(219, 178, 178, 1);
-  --text-color-2: rgba(43, 43, 43, 1);
-  --text-color-3: rgba(43, 43, 43, 1);
-  --text-color-4: rgba(190, 218, 229, 1);
-  --title-fontz-1-4: 80px;
-  --Content-fontz-1-4: 48px;
-  --soso-fontz: 30px;
-  --footer: rgb(248, 238, 238);
-}
-
 * {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  width: 100vw;
 }
 
 body,
 html {
   padding: 0;
   margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 /************ mobile menu **************/
@@ -414,7 +415,6 @@ html {
       width: 100%;
       height: 100%;
       position: absolute;
-      background: var(--background-color-0);
       left: 0;
       top: 0;
       opacity: 0.68;
@@ -469,7 +469,6 @@ html {
 .ts-hero__section-1 {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-1);
   padding: 2rem;
   position: relative;
   &-hero {
@@ -508,7 +507,6 @@ html {
 .ts-hero__section-2 {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-2);
   padding: 2rem;
   &-hero {
     @include hero-hero;
@@ -547,7 +545,6 @@ html {
 .ts-hero__section-3 {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-3);
   padding: 2rem;
   &-hero {
     @include hero-hero;
@@ -585,7 +582,6 @@ html {
 .ts-hero__section-4 {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-4);
   padding: 2rem;
   &-hero {
     @include hero-hero;
@@ -623,7 +619,6 @@ html {
 .ts-hero__section-5 {
   width: 100%;
   height: auto !important;
-  background-color: var(--background-color-5);
   .container {
     .left {
       img {
@@ -646,7 +641,7 @@ html {
 
 /*********************** 企業責任-2 section-6  **************************************/
 
-.ts-hero__section-6 {
+.ts-hero__section-6-hero {
   width: 100%;
   height: auto !important;
   background-color: var(--background-color-5);
@@ -672,7 +667,7 @@ html {
 
 /*********************** 企業責任-3 section-7  **************************************/
 
-.ts-hero__section-7 {
+.ts-hero__section-7-hero {
   width: 100%;
   height: auto !important;
   background-color: var(--background-color-5);
@@ -694,8 +689,11 @@ html {
       }
     }
   }
+}
+
+footer {
+  background-color: var(--footer);
   .footer {
-    background: var(--footer);
     border: 1px solid #fff;
     h4 {
       font-weight: 700;
