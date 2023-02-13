@@ -719,7 +719,7 @@ html {
   padding-bottom: 50px;
 }
 
-.ts-hero__section-2-hero .sec1-hero-title-img {
+.ts-hero__section-2-hero .sec2-hero-title-img {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
@@ -727,132 +727,141 @@ html {
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img {
+  .ts-hero__section-2-hero .sec2-hero-title-img {
     max-width: 55vw;
   }
 }
 
 @media (min-width: 991px) and (max-width: 1398px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img {
+  .ts-hero__section-2-hero .sec2-hero-title-img {
     max-width: 65vw;
     height: 50vh;
   }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img {
+  .ts-hero__section-2-hero .sec2-hero-title-img {
     max-width: 65vw;
     height: 40vh;
   }
 }
 
 @media (min-width: 575px) and (max-width: 766px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img {
+  .ts-hero__section-2-hero .sec2-hero-title-img {
     max-width: 80vw;
     height: auto;
   }
 }
 
 @media (min-width: 100px) and (max-width: 574px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img {
+  .ts-hero__section-2-hero .sec2-hero-title-img {
     max-width: 90vw;
     height: auto;
   }
 }
 
-.ts-hero__section-2-hero .sec1-hero-title-img img {
+.ts-hero__section-2-hero .sec2-hero-title-img .outt {
+  width: 800px;
+  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+  overflow: hidden;
+}
+
+.ts-hero__section-2-hero .sec2-hero-title-img .outt img {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 600px;
   height: 600px;
   mix-blend-mode: multiply;
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img img {
+  .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
     width: 450px;
     height: 450px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img img {
+  .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
     width: 400px;
     height: 400px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img img {
+  .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
     width: 100px;
     height: 100px;
   }
 }
 
-.ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title {
+.ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title {
   margin-left: -180px;
   width: 100%;
   z-index: 1;
 }
 
 @media (min-width: 767px) and (max-width: 1299px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title {
     margin-left: -150px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 766px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title {
     margin-left: 0px;
   }
 }
 
-.ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
+.ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
   font-size: var(--title-fontz-1-4);
   color: #fff;
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 70px;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 60px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 50px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 40px;
   }
 }
 
-.ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title p {
+.ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
   font-size: var(--Content-fontz-1-4);
   color: #fff;
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
     font-size: 30px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
     font-size: 28px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-2-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
     font-size: 26px;
   }
 }
@@ -920,7 +929,7 @@ html {
   padding-bottom: 50px;
 }
 
-.ts-hero__section-3-hero .sec1-hero-title-img {
+.ts-hero__section-3-hero .sec3-hero-title-img {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
@@ -928,131 +937,140 @@ html {
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img {
+  .ts-hero__section-3-hero .sec3-hero-title-img {
     max-width: 55vw;
   }
 }
 
 @media (min-width: 991px) and (max-width: 1398px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img {
+  .ts-hero__section-3-hero .sec3-hero-title-img {
     max-width: 65vw;
     height: 50vh;
   }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img {
+  .ts-hero__section-3-hero .sec3-hero-title-img {
     max-width: 65vw;
     height: 40vh;
   }
 }
 
 @media (min-width: 575px) and (max-width: 766px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img {
+  .ts-hero__section-3-hero .sec3-hero-title-img {
     max-width: 80vw;
     height: auto;
   }
 }
 
 @media (min-width: 100px) and (max-width: 574px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img {
+  .ts-hero__section-3-hero .sec3-hero-title-img {
     max-width: 90vw;
     height: auto;
   }
 }
 
-.ts-hero__section-3-hero .sec1-hero-title-img img {
+.ts-hero__section-3-hero .sec3-hero-title-img .outt {
+  width: 800px;
+  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+  overflow: hidden;
+}
+
+.ts-hero__section-3-hero .sec3-hero-title-img .outt img {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 600px;
   height: 600px;
   mix-blend-mode: multiply;
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img img {
+  .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
     width: 450px;
     height: 450px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img img {
+  .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
     width: 400px;
     height: 400px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img img {
+  .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
     width: 100px;
     height: 100px;
   }
 }
 
-.ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title {
+.ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title {
   margin-left: -180px;
   width: 100%;
   z-index: 1;
 }
 
 @media (min-width: 767px) and (max-width: 1299px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title {
     margin-left: -150px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 766px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title {
     margin-left: 0px;
   }
 }
 
-.ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
+.ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
   font-size: var(--title-fontz-1-4);
   color: #fff;
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 70px;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 60px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 50px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 40px;
   }
 }
 
-.ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title p {
+.ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
   font-size: var(--Content-fontz-1-4);
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
     font-size: 30px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
     font-size: 28px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-3-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
     font-size: 26px;
   }
 }
@@ -1120,7 +1138,7 @@ html {
   padding-bottom: 50px;
 }
 
-.ts-hero__section-4-hero .sec1-hero-title-img {
+.ts-hero__section-4-hero .sec4-hero-title-img {
   max-width: 50vw;
   height: 60vh;
   margin-inline: auto;
@@ -1128,131 +1146,140 @@ html {
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img {
+  .ts-hero__section-4-hero .sec4-hero-title-img {
     max-width: 55vw;
   }
 }
 
 @media (min-width: 991px) and (max-width: 1398px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img {
+  .ts-hero__section-4-hero .sec4-hero-title-img {
     max-width: 65vw;
     height: 50vh;
   }
 }
 
 @media (min-width: 767px) and (max-width: 990px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img {
+  .ts-hero__section-4-hero .sec4-hero-title-img {
     max-width: 65vw;
     height: 40vh;
   }
 }
 
 @media (min-width: 575px) and (max-width: 766px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img {
+  .ts-hero__section-4-hero .sec4-hero-title-img {
     max-width: 80vw;
     height: auto;
   }
 }
 
 @media (min-width: 100px) and (max-width: 574px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img {
+  .ts-hero__section-4-hero .sec4-hero-title-img {
     max-width: 90vw;
     height: auto;
   }
 }
 
-.ts-hero__section-4-hero .sec1-hero-title-img img {
+.ts-hero__section-4-hero .sec4-hero-title-img .outt {
+  width: 800px;
+  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+  overflow: hidden;
+}
+
+.ts-hero__section-4-hero .sec4-hero-title-img .outt img {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 600px;
   height: 600px;
   mix-blend-mode: multiply;
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img img {
+  .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
     width: 450px;
     height: 450px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img img {
+  .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
     width: 400px;
     height: 400px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img img {
+  .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
     width: 100px;
     height: 100px;
   }
 }
 
-.ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title {
+.ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title {
   margin-left: -180px;
   width: 100%;
   z-index: 1;
 }
 
 @media (min-width: 767px) and (max-width: 1299px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title {
     margin-left: -150px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 766px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title {
     margin-left: 0px;
   }
 }
 
-.ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
+.ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
   font-size: var(--title-fontz-1-4);
   color: #fff;
 }
 
 @media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 70px;
   }
 }
 
 @media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 60px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 50px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 40px;
   }
 }
 
-.ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title p {
+.ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
   font-size: var(--Content-fontz-1-4);
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
     font-size: 30px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
     font-size: 28px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-4-hero .sec1-hero-title-img .sec1-hero-title p {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
     font-size: 26px;
   }
 }

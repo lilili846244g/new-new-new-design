@@ -534,12 +534,25 @@ html {
   padding: 2rem;
   &-hero {
     @include hero-hero;
-    .sec1-hero-title-img {
+    .sec2-hero-title-img {
       @include section-hero-text-img;
-      img {
-        @include hero-img;
+      .outt {
+        width: 800px;
+        clip-path: polygon(
+          89.07% 67.05%,
+          49.57% 90.88%,
+          10.07% 67.05%,
+          10.07% 29.28%,
+          49.57% 4.45%,
+          88.93% 29.28%
+        );
+        overflow: hidden;
+        img {
+          object-fit: contain;
+          @include hero-img;
+        }
       }
-      .sec1-hero-title {
+      .sec2-hero-title {
         @include section-title;
         h1 {
           @include hero-h1;
@@ -572,12 +585,25 @@ html {
   padding: 2rem;
   &-hero {
     @include hero-hero;
-    .sec1-hero-title-img {
+    .sec3-hero-title-img {
       @include section-hero-text-img;
-      img {
-        @include hero-img;
+      .outt {
+        width: 800px;
+        clip-path: polygon(
+          89.07% 67.05%,
+          49.57% 90.88%,
+          10.07% 67.05%,
+          10.07% 29.28%,
+          49.57% 4.45%,
+          88.93% 29.28%
+        );
+        overflow: hidden;
+        img {
+          object-fit: contain;
+          @include hero-img;
+        }
       }
-      .sec1-hero-title {
+      .sec3-hero-title {
         @include section-title;
         h1 {
           @include hero-h1;
@@ -609,12 +635,25 @@ html {
   padding: 2rem;
   &-hero {
     @include hero-hero;
-    .sec1-hero-title-img {
+    .sec4-hero-title-img {
       @include section-hero-text-img;
-      img {
-        @include hero-img;
+      .outt {
+        width: 800px;
+        clip-path: polygon(
+          89.07% 67.05%,
+          49.57% 90.88%,
+          10.07% 67.05%,
+          10.07% 29.28%,
+          49.57% 4.45%,
+          88.93% 29.28%
+        );
+        overflow: hidden;
+        img {
+          object-fit: contain;
+          @include hero-img;
+        }
       }
-      .sec1-hero-title {
+      .sec4-hero-title {
         @include section-title;
         h1 {
           @include hero-h1;

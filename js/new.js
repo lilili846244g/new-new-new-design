@@ -58,9 +58,9 @@ gsap.from(".section-1-img", 1, {
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
-    trigger: ".ts-hero__section-1",
+    trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 30%",
+    start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
   },
@@ -68,12 +68,12 @@ gsap.from(".section-1-img", 1, {
 gsap.from(".sec1-hero-title h1", 1, {
   x: 100,
   opacity: 0,
-  ease: "easeIn",
+  ease: "easeInOut",
   stagger: 0.5,
   scrollTrigger: {
-    trigger: ".ts-hero__section-1",
+    trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 30%",
+    start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
   },
@@ -85,9 +85,9 @@ gsap.from("#section-1-p", 0.8, {
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
-    trigger: ".ts-hero__section-1",
+    trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 35%",
+    start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
   },
@@ -100,10 +100,220 @@ gsap.from("#scetion-1-an p", 2, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: "#scetion-1-an",
+    //markers: true,
+    start: "top 60%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+// =================== section 2 ==========================
+gsap.from(".section-2-img", 1, {
+  scale: 10,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec2-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+gsap.from(".sec2-hero-title h1", 1, {
+  x: 100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec2-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#section-2-p", 0.8, {
+  x: 100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec2-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#scetion-2-an p", 2, {
+  opacity: 0,
+  x: 20,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: "#scetion-2-an",
     markers: true,
     start: "top center",
     end: "bottom bottom",
     scrub: 1,
+  },
+});
+// =================== section 3 ==========================
+gsap.from(".section-3-img", 1, {
+  scale: 10,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec3-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+gsap.from(".sec3-hero-title h1", 1, {
+  x: 100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec3-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#section-3-p", 0.8, {
+  x: 100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec3-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#scetion-3-an p", 2, {
+  opacity: 0,
+  x: 20,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: "#scetion-3-an",
+    markers: true,
+    start: "top center",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+// =================== section 4 ==========================
+gsap.from(".section-4-img", 1, {
+  scale: 10,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec4-hero-title-img",
+    markers: true,
+    start: "top 50%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+gsap.from(".sec4-hero-title h1", 1, {
+  y: 100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec4-hero-title-img",
+    markers: true,
+    start: "top 51%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#section-4-p", 0.8, {
+  y: -100,
+  opacity: 0,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: ".sec4-hero-title-img",
+    markers: true,
+    start: "top 52%",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+gsap.from("#scetion-4-an p", 2, {
+  opacity: 0,
+  x: 20,
+  ease: "easeIn",
+  stagger: 0.5,
+  scrollTrigger: {
+    trigger: "#scetion-4-an",
+    markers: true,
+    start: "top center",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+});
+
+// =================== 企業責任-1  section 5  ==========================
+gsap.from(".soso-img", 1, {
+  scale: 15,
+  y: 100,
+  opacity: 0,
+  ease: "ease",
+  scrollTrigger: {
+    trigger: ".ts-hero__section-5-hero",
+    markers: true,
+    start: "-20% top",
+    end: "10% center",
+    scrub: 3,
+  },
+});
+
+// =================== 企業責任-2 section-5 ==========================
+gsap.from(".soso-img-5a", 2, {
+  scale: 10,
+  y: 100,
+  opacity: 0,
+  ease: "ease",
+  scrollTrigger: {
+    trigger: ".ts-hero__section-6-hero",
+    markers: true,
+    start: "-20% top",
+    end: "10% center",
+    scrub: 3,
+  },
+});
+// =================== 企業責任-2 section-6 ==========================
+gsap.from(".soso-img-5b", 2, {
+  scale: 10,
+  y: 100,
+  opacity: 0,
+  ease: "ease",
+  scrollTrigger: {
+    trigger: ".ts-hero__section-7-hero",
+    markers: true,
+    start: "-20% top",
+    end: "10% center",
+    scrub: 3,
   },
 });
 /***************************************************/
