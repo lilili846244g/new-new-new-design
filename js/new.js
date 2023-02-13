@@ -315,31 +315,6 @@ gsap.from(".soso-img-5b", 2, {
 });
 /***************************************************/
 
-/* let links = gsap.utils.toArray(".ts-menu li a");
-links.forEach((a) => {
-  let element = document.querySelectorAll(a.getAttribute("href")),
-    linkST = ScrollTrigger.create({
-      trigger: element,
-      start: "top top",
-    }),
-    highlightST = ScrollTrigger.create({
-      trigger: element,
-      start: "top top",
-      end: "bottom bottom",
-      markers: true,
-      onToggle: (self) => self.isActive && setActive(a),
-    });
-  a.addEventListener("click", function (e) {
-    e.preventDefault();
-    gsap.to(window, { duration: 1, scrollTo: linkST.start });
-  });
-});
-
-function setActive(link) {
-  links.forEach((el) => el.classList.remove("active"));
-  link.classList.add("active");
-} */
-
 gsap.set(".ts-hero__sections", {
   zIndex: (i, target, targets) => targets.length - i,
 });
@@ -356,7 +331,7 @@ links.forEach((btn, index) => {
 
     for (let i = 0; i < 6; i++) {
       prev = links;
-      if (prev[i].classList.contains("active")) {
+      if (prev[i].classList.add("active")) {
         prev[i].classList.remove("active");
       }
     }
@@ -381,3 +356,14 @@ sections.forEach((section, i) => {
     },
   });
 });
+
+const mbLink = document.querySelectorAll(".mb-link");
+const mbImg = document.querySelectorAll(".mb-img");
+
+const Link = document.querySelectorAll(".mb-link a");
+
+mbLink.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.querySelectorAll(".mb-link a").classList.add("active");
+}
