@@ -10,12 +10,12 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     /*   onLeave: () => gsap.to(".bkg-an", { backgroundColor: rgba(38, 38, 38, 1) }),
     onLeaveBack: () => gsap.to(".bkg-an", { backgroundColor: "transparent" }), */
     onEnterBack: () => gsap.to(".bkg-an", { backgroundColor: color }),
-    markers: true,
+    //  markers: true,
   });
 });
 
 // =================== section 0 ==========================
-gsap.from(".hero-logo ", 1.5, {
+gsap.from(".hero-logo", 0.5, {
   opacity: 0,
   ease: "easeIn",
   scrollTrigger: {
@@ -25,27 +25,27 @@ gsap.from(".hero-logo ", 1.5, {
     scrub: 1,
   },
 });
-gsap.from(".hero-text h1 ", 1.5, {
-  Y: -100,
+gsap.from(".hero-text h1", 1, {
+  y: -20,
   opacity: 0,
   ease: "easeIn",
   scrollTrigger: {
     trigger: ".ts-text-con",
     //markers: true,
-    start: "top top",
+    start: "top -10%",
     end: "bottom bottom",
     scrub: 1,
   },
 });
-gsap.from(".hero-text p", 2, {
+gsap.from(".hero-text p", 1, {
   opacity: 0,
-  x: -20,
+  x: -10,
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-text-con",
     // markers: true,
-    start: "top top",
+    start: "top -10%",
     end: "bottom bottom",
     scrub: 1,
   },
@@ -115,7 +115,7 @@ gsap.from(".section-2-img", 1, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -128,7 +128,7 @@ gsap.from(".sec2-hero-title h1", 2, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -142,7 +142,7 @@ gsap.from("#section-2-p", 2, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -156,7 +156,7 @@ gsap.from("#scetion-2-an p", 3, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: "#scetion-2-an",
-    markers: true,
+    //  markers: true,
     start: "top center",
     end: "bottom bottom",
     scrub: 1,
@@ -170,7 +170,7 @@ gsap.from(".section-3-img", 1, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -183,7 +183,7 @@ gsap.from(".sec3-hero-title h1", 2, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -197,7 +197,7 @@ gsap.from("#section-3-p", 2, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
@@ -211,7 +211,7 @@ gsap.from("#scetion-3-an p", 3, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: "#scetion-3-an",
-    markers: true,
+    //  markers: true,
     start: "top center",
     end: "bottom bottom",
     scrub: 1,
@@ -225,20 +225,20 @@ gsap.from(".section-4-img", 1, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 50%",
     end: "bottom bottom",
     scrub: 1,
   },
 });
 gsap.from(".sec4-hero-title h1", 2, {
-  y: 100,
+  y: 50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 51%",
     end: "bottom bottom",
     scrub: 1,
@@ -246,13 +246,13 @@ gsap.from(".sec4-hero-title h1", 2, {
 });
 
 gsap.from("#section-4-p", 2, {
-  y: -100,
+  y: -50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
-    markers: true,
+    //  markers: true,
     start: "top 52%",
     end: "bottom bottom",
     scrub: 1,
@@ -266,7 +266,7 @@ gsap.from("#scetion-4-an p", 3, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: "#scetion-4-an",
-    markers: true,
+    //  markers: true,
     start: "top center",
     end: "bottom bottom",
     scrub: 1,
@@ -275,13 +275,12 @@ gsap.from("#scetion-4-an p", 3, {
 
 // =================== 企業責任-1  section 5  ==========================
 gsap.from(".soso-img", 1, {
-  scale: 15,
-  y: 100,
+  y: -50,
   opacity: 0,
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-5-hero",
-    markers: true,
+    //  markers: true,
     start: "-20% top",
     end: "10% center",
     scrub: 3,
@@ -290,13 +289,12 @@ gsap.from(".soso-img", 1, {
 
 // =================== 企業責任-2 section-5 ==========================
 gsap.from(".soso-img-5a", 2, {
-  scale: 10,
-  y: 100,
+  y: -50,
   opacity: 0,
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-6-hero",
-    markers: true,
+    //  markers: true,
     start: "-20% top",
     end: "10% center",
     scrub: 3,
@@ -304,13 +302,12 @@ gsap.from(".soso-img-5a", 2, {
 });
 // =================== 企業責任-2 section-6 ==========================
 gsap.from(".soso-img-5b", 2, {
-  scale: 10,
-  y: 100,
+  y: -50,
   opacity: 0,
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-7-hero",
-    markers: true,
+    //  markers: true,
     start: "-20% top",
     end: "10% center",
     scrub: 3,
@@ -329,7 +326,7 @@ links.forEach((a) => {
       trigger: element,
       start: "top top",
       end: "bottom bottom",
-      markers: true,
+    //  markers: true,
       onToggle: (self) => self.isActive && setActive(a),
     });
   a.addEventListener("click", function (e) {
