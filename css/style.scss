@@ -26,24 +26,6 @@
   }
 }
 
-@mixin hero-img {
-  width: 600px;
-  height: 600px;
-  mix-blend-mode: multiply;
-  @media (min-width: 900px) and (max-width: 1299px) {
-    width: 600px;
-    height: 600px;
-  }
-  @media (min-width: 600px) and (max-width: 899px) {
-    width: 400px;
-    height: 400px;
-  }
-  @media (min-width: 200px) and (max-width: 599px) {
-    width: 100px;
-    height: 100px;
-  }
-}
-
 @mixin outt-part {
   width: 800px;
   clip-path: polygon(
@@ -67,6 +49,24 @@
     height: 100px;
   }
   overflow: hidden;
+}
+
+@mixin hero-img {
+  width: 600px;
+  height: 600px;
+  z-index: 100;
+  @media (min-width: 900px) and (max-width: 1299px) {
+    width: 600px;
+    height: 600px;
+  }
+  @media (min-width: 600px) and (max-width: 899px) {
+    width: 400px;
+    height: 400px;
+  }
+  @media (min-width: 200px) and (max-width: 599px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 @mixin section-title {
@@ -110,7 +110,6 @@
 
 @mixin hero-btn {
   padding: 10px 30px;
-  margin-left: 30px;
   border-radius: 25px;
   font-size: 1vw;
   cursor: pointer !important;
@@ -138,7 +137,7 @@
 
 @mixin so-h1 {
   color: #fff;
-  font-size: 1vw;
+  font-size: 2.2vw;
   padding: 15px 0;
   font-weight: 700;
 }
@@ -345,7 +344,7 @@ html {
     align-items: flex-start;
     list-style: none;
     gap: 15px;
-    padding: 0;
+    padding: 30px 0 0 0;
     @media (min-width: 100px) and (max-width: 989px) {
       display: none !important;
     }
@@ -360,6 +359,9 @@ html {
         /*    &:hover {
                   transform: scale(1.5);
               }*/
+        .active {
+          opacity: 1;
+        }
       }
       a {
         text-decoration: none;
@@ -486,8 +488,10 @@ html {
     .sec1-hero-title-img {
       @include section-hero-text-img;
       .outt {
+        mix-blend-mode: overlay;
         @include outt-part;
         img {
+          mix-blend-mode: overlay;
           object-fit: contain;
           @include hero-img;
         }
@@ -528,8 +532,10 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
+        mix-blend-mode: multiply;
         img {
           object-fit: contain;
+          mix-blend-mode: multiply;
           @include hero-img;
         }
       }
@@ -570,8 +576,10 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
+        mix-blend-mode: overlay;
         img {
           object-fit: contain;
+          mix-blend-mode: overlay;
           @include hero-img;
         }
       }
@@ -611,8 +619,10 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
+        mix-blend-mode: overlay;
         img {
           object-fit: contain;
+          mix-blend-mode: overlay;
           @include hero-img;
         }
       }

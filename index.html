@@ -69,7 +69,7 @@
           <span></span>
           <span></span>
           <span></span>
-          <nav class="mb-ts-nav p-5">
+          <nav class="mb-ts-nav">
             <ul class="mb-ts-menu">
               <li class="mb-link">
                 <img src="./images/icons/img-logo.svg" alt="" class="mb-img" />
@@ -186,8 +186,9 @@
                   <p>⿈蜂租⾞亦是本港政府認可物流供應商，</p>
                   <p>質量和價錢深受廣泛認同。</p>
                 </div>
+
                 <div
-                  class="mx-auto d-lg-flex justify-content-center align-items-center mt-2"
+                  class="mx-auto d-lg-flex gap-lg-3 justify-content-center align-items-center mt-2"
                 >
                   <a href="#" class="btn">前往網站</a>
                   <a href="#" class="btn mt-3 mt-lg-0">電子傳單</a>
@@ -242,7 +243,7 @@
                 </div>
 
                 <div
-                  class="mx-auto d-lg-flex justify-content-center align-items-center mt-2"
+                  class="mx-auto d-lg-flex gap-lg-3 justify-content-center align-items-center mt-2"
                 >
                   <a href="#" class="btn">前往網站</a>
                   <a href="#" class="btn mt-3 mt-lg-0">電子傳單</a>
@@ -294,7 +295,7 @@
                 </div>
 
                 <div
-                  class="mx-auto d-lg-flex justify-content-center align-items-center mt-2"
+                  class="mx-auto d-lg-flex gap-lg-3 justify-content-center align-items-center mt-2"
                 >
                   <a href="#" class="btn">前往網站</a>
                   <a href="#" class="btn mt-3 mt-lg-0">電子傳單</a>
@@ -350,7 +351,7 @@
                 </div>
 
                 <div
-                  class="mx-auto d-lg-flex justify-content-center align-items-center mt-2"
+                  class="mx-auto d-lg-flex gap-lg-3 justify-content-center align-items-center mt-2"
                 >
                   <a href="#" class="btn">前往網站</a>
                   <a href="#" class="btn mt-3 mt-lg-0">電子傳單</a>
@@ -383,6 +384,7 @@
                       src="./images/icons/img_eco.svg"
                       alt=""
                       class="so-logo"
+                      id="so-so-logo-5a"
                     />
                     <h1>
                       環保及 <br />
@@ -417,6 +419,7 @@
                       src="./images/icons/img_care.svg"
                       alt=""
                       class="so-logo"
+                      id="so-so-logo-6a"
                     />
                     <h1>社區關懷</h1>
                     <p>
@@ -470,6 +473,7 @@
                       src="./images/icons/img_working.svg"
                       alt=""
                       class="so-logo"
+                      id="so-so-logo-7b"
                     />
                     <h1>工作環境</h1>
                     <p>
@@ -559,7 +563,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="box-4">
+            <div class="box-4 align-items-end">
               <ul>
                 <li>
                   <img
@@ -568,7 +572,7 @@
                     class="w-100 img-4"
                   />
                 </li>
-                <li>
+                <li class="text-">
                   <img
                     src="./images/photos/caringcompany-logo.svg "
                     alt=" "
@@ -597,81 +601,5 @@
     <script src="./js/ScrollTrigger.min.js "></script>
     <script src="./js/ScrollToPlugin.min.js "></script>
     <script src="./js/new.js"></script>
-    <!--   <script src="./js/index.js "></script> -->
-    <script>
-      /********************  navbar  ************************ */
-
-      var menuToggle = document.getElementById("menuToggle");
-
-      var menuBar = gsap.timeline({
-        paused: true,
-      });
-
-      menuBar.to(
-        ".bar-1",
-        0.5,
-        {
-          attr: {
-            d: "M8,2 L2,8",
-          },
-          x: 1,
-          ease: Power2.easeInOut,
-        },
-        "start"
-      );
-      menuBar.to(
-        ".bar-2",
-        0.5,
-        {
-          autoAlpha: 0,
-        },
-        "start"
-      );
-      menuBar.to(
-        ".bar-3",
-        0.5,
-        {
-          attr: {
-            d: "M8,8 L2,2",
-          },
-          x: 1,
-          ease: Power2.easeInOut,
-        },
-        "start"
-      );
-      menuBar.reverse();
-
-      var t1 = gsap.timeline();
-      t1.to(".fullpage-menu", 0, {
-        display: "block",
-        ease: "Expo.easeInOut",
-      });
-      t1.from(".menu-bg span", 1, {
-        x: "100%",
-        stagger: 0.1,
-        ease: "Expo.easeInOut",
-      });
-      t1.to(".mb-ts-nav", 0, {
-        display: "block",
-      });
-      t1.from(
-        ".mb-link ",
-        1.5,
-        {
-          y: "100%",
-          opacity: 0,
-          stagger: 0.2,
-          ease: "Expo.easeInOut",
-        },
-        "-=0.5"
-      );
-
-      t1.reverse();
-
-      menuToggle.addEventListener("click", function () {
-        menuBar.reversed(!menuBar.reversed());
-        t1.reversed(!t1.reversed());
-      });
-    </script>
   </body>
 </html>
