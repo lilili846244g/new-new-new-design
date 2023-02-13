@@ -57,9 +57,9 @@
 }
 
 @mixin hero-h1 {
-  font-size: var(--title-fontz-1-4);
+  /*   font-size: var(--title-fontz-1-4); */
   color: #fff;
-  @media (min-width: 1399px) and (max-width: 1850px) {
+  /* @media (min-width: 1399px) and (max-width: 1850px) {
     font-size: 70px;
   }
   @media (min-width: 900px) and (max-width: 1398px) {
@@ -70,12 +70,13 @@
   }
   @media (min-width: 200px) and (max-width: 599px) {
     font-size: 40px;
-  }
+  } */
 }
 
 @mixin section-p {
-  font-size: var(--Content-fontz-1-4);
-  @media (min-width: 900px) and (max-width: 1299px) {
+  font-size: 1vw;
+  /* font-size: var(--Content-fontz-1-4);
+    @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 30px;
   }
   @media (min-width: 600px) and (max-width: 899px) {
@@ -83,15 +84,15 @@
   }
   @media (min-width: 200px) and (max-width: 599px) {
     font-size: 26px;
-  }
+  }*/
 }
 
 @mixin an-p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  @media (min-width: 900px) and (max-width: 1299px) {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
   @media (min-width: 600px) and (max-width: 899px) {
@@ -102,7 +103,7 @@
   }
   @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
 }
 
 @mixin hero-btn {
@@ -135,14 +136,14 @@
 
 @mixin so-h1 {
   color: #fff;
-  font-size: var(--soso-h1);
+  font-size: 1vw;
   padding: 15px 0;
   font-weight: 700;
 }
 
 @mixin so-p {
   color: #fff;
-  font-size: var(--soso-p);
+  font-size: 1vw;
   line-height: 30px;
   text-align: justify;
 }
@@ -449,23 +450,21 @@ html {
         width: 8%;
         @media (min-width: 600px) and (max-width: 899px) {
           width: 18%;
-          font-size: 30px;
         }
         @media (min-width: 200px) and (max-width: 599px) {
           width: 20%;
-          font-size: 20px;
         }
       }
       h1 {
         word-break: break-all;
-        font-size: 60px;
+        font-size: 1vw;
         color: var(--background-color-2);
-        @media (min-width: 600px) and (max-width: 899px) {
+        /*   @media (min-width: 600px) and (max-width: 899px) {
           font-size: 50px;
         }
         @media (min-width: 200px) and (max-width: 599px) {
           font-size: 40px;
-        }
+        } */
       }
       p {
         @include an-p;

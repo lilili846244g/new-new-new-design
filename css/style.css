@@ -433,65 +433,45 @@ html {
 @media (min-width: 600px) and (max-width: 899px) {
   .ts-hero__section-0 .ts-text-con .hero-text .hero-logo {
     width: 18%;
-    font-size: 30px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
   .ts-hero__section-0 .ts-text-con .hero-text .hero-logo {
     width: 20%;
-    font-size: 20px;
   }
 }
 
 .ts-hero__section-0 .ts-text-con .hero-text h1 {
   word-break: break-all;
-  font-size: 60px;
+  font-size: 1vw;
   color: var(--background-color-2);
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-0 .ts-text-con .hero-text h1 {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-0 .ts-text-con .hero-text h1 {
-    font-size: 40px;
-  }
+  /*   @media (min-width: 600px) and (max-width: 899px) {
+          font-size: 50px;
+        }
+        @media (min-width: 200px) and (max-width: 599px) {
+          font-size: 40px;
+        } */
 }
 
 .ts-hero__section-0 .ts-text-con .hero-text p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  color: var(--text-color-0);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-0 .ts-text-con .hero-text p {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-0 .ts-text-con .hero-text p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 24px;
   }
-}
-
-@media (min-width: 400px) and (max-width: 599px) {
-  .ts-hero__section-0 .ts-text-con .hero-text p {
+  @media (min-width: 400px) and (max-width: 599px) {
     font-size: 20px;
   }
-}
-
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-0 .ts-text-con .hero-text p {
+  @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
+  color: var(--text-color-0);
 }
 
 /************************** 黃蜂租車  section-1  ***********************************************/
@@ -606,86 +586,54 @@ html {
 }
 
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
-  font-size: var(--title-fontz-1-4);
+  /*   font-size: var(--title-fontz-1-4); */
   color: #fff;
-}
-
-@media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  /* @media (min-width: 1399px) and (max-width: 1850px) {
     font-size: 70px;
   }
-}
-
-@media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  @media (min-width: 900px) and (max-width: 1398px) {
     font-size: 60px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 50px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 40px;
-  }
+  } */
 }
 
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title p {
-  font-size: var(--Content-fontz-1-4);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title p {
+  font-size: 1vw;
+  /* font-size: var(--Content-fontz-1-4);
+    @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 30px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title p {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 26px;
-  }
+  }*/
 }
 
 .ts-hero__section-1 .text-an p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  color: var(--text-color-1);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-1 .text-an p {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-1 .text-an p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 24px;
   }
-}
-
-@media (min-width: 400px) and (max-width: 599px) {
-  .ts-hero__section-1 .text-an p {
+  @media (min-width: 400px) and (max-width: 599px) {
     font-size: 20px;
   }
-}
-
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-1 .text-an p {
+  @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
+  color: var(--text-color-1);
 }
 
 .ts-hero__section-1 .btn {
@@ -815,87 +763,55 @@ html {
 }
 
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
-  font-size: var(--title-fontz-1-4);
+  /*   font-size: var(--title-fontz-1-4); */
   color: #fff;
-}
-
-@media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
+  /* @media (min-width: 1399px) and (max-width: 1850px) {
     font-size: 70px;
   }
-}
-
-@media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
+  @media (min-width: 900px) and (max-width: 1398px) {
     font-size: 60px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 50px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 40px;
-  }
+  } */
 }
 
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
-  font-size: var(--Content-fontz-1-4);
-  color: #fff;
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
+  font-size: 1vw;
+  /* font-size: var(--Content-fontz-1-4);
+    @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 30px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 26px;
-  }
+  }*/
+  color: #fff;
 }
 
 .ts-hero__section-2 .text-an p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  color: #fff;
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-2 .text-an p {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-2 .text-an p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 24px;
   }
-}
-
-@media (min-width: 400px) and (max-width: 599px) {
-  .ts-hero__section-2 .text-an p {
+  @media (min-width: 400px) and (max-width: 599px) {
     font-size: 20px;
   }
-}
-
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-2 .text-an p {
+  @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
+  color: #fff;
 }
 
 .ts-hero__section-2 .btn {
@@ -1025,86 +941,54 @@ html {
 }
 
 .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
-  font-size: var(--title-fontz-1-4);
+  /*   font-size: var(--title-fontz-1-4); */
   color: #fff;
-}
-
-@media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
+  /* @media (min-width: 1399px) and (max-width: 1850px) {
     font-size: 70px;
   }
-}
-
-@media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
+  @media (min-width: 900px) and (max-width: 1398px) {
     font-size: 60px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 50px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 40px;
-  }
+  } */
 }
 
 .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
-  font-size: var(--Content-fontz-1-4);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
+  font-size: 1vw;
+  /* font-size: var(--Content-fontz-1-4);
+    @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 30px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 26px;
-  }
+  }*/
 }
 
 .ts-hero__section-3 .text-an p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  color: #fff;
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-3 .text-an p {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-3 .text-an p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 24px;
   }
-}
-
-@media (min-width: 400px) and (max-width: 599px) {
-  .ts-hero__section-3 .text-an p {
+  @media (min-width: 400px) and (max-width: 599px) {
     font-size: 20px;
   }
-}
-
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-3 .text-an p {
+  @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
+  color: #fff;
 }
 
 .ts-hero__section-3 .btn {
@@ -1234,86 +1118,54 @@ html {
 }
 
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
-  font-size: var(--title-fontz-1-4);
+  /*   font-size: var(--title-fontz-1-4); */
   color: #fff;
-}
-
-@media (min-width: 1399px) and (max-width: 1850px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
+  /* @media (min-width: 1399px) and (max-width: 1850px) {
     font-size: 70px;
   }
-}
-
-@media (min-width: 900px) and (max-width: 1398px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
+  @media (min-width: 900px) and (max-width: 1398px) {
     font-size: 60px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 50px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 40px;
-  }
+  } */
 }
 
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
-  font-size: var(--Content-fontz-1-4);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
+  font-size: 1vw;
+  /* font-size: var(--Content-fontz-1-4);
+    @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 30px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
+  @media (min-width: 200px) and (max-width: 599px) {
     font-size: 26px;
-  }
+  }*/
 }
 
 .ts-hero__section-4 .text-an p {
   word-break: break-all;
-  font-size: 40px;
+  font-size: 1vw;
   text-align: center;
   margin: 10px 0;
-  color: var(--text-color-4);
-}
-
-@media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-4 .text-an p {
+  /*   @media (min-width: 900px) and (max-width: 1299px) {
     font-size: 28px;
   }
-}
-
-@media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-4 .text-an p {
+  @media (min-width: 600px) and (max-width: 899px) {
     font-size: 24px;
   }
-}
-
-@media (min-width: 400px) and (max-width: 599px) {
-  .ts-hero__section-4 .text-an p {
+  @media (min-width: 400px) and (max-width: 599px) {
     font-size: 20px;
   }
-}
-
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-4 .text-an p {
+  @media (min-width: 100px) and (max-width: 399px) {
     font-size: 16px;
-  }
+  } */
+  color: var(--text-color-4);
 }
 
 .ts-hero__section-4 .btn {
@@ -1410,14 +1262,14 @@ html {
 
 .ts-hero__section-5 .container .section-5-right h1 {
   color: #fff;
-  font-size: var(--soso-h1);
+  font-size: 1vw;
   padding: 15px 0;
   font-weight: 700;
 }
 
 .ts-hero__section-5 .container .section-5-right p {
   color: #fff;
-  font-size: var(--soso-p);
+  font-size: 1vw;
   line-height: 30px;
   text-align: justify;
 }
@@ -1458,14 +1310,14 @@ html {
 
 .ts-hero__section-6-hero .container .section-6-left h1 {
   color: #fff;
-  font-size: var(--soso-h1);
+  font-size: 1vw;
   padding: 15px 0;
   font-weight: 700;
 }
 
 .ts-hero__section-6-hero .container .section-6-left p {
   color: #fff;
-  font-size: var(--soso-p);
+  font-size: 1vw;
   line-height: 30px;
   text-align: justify;
 }
@@ -1576,14 +1428,14 @@ html {
 
 .ts-hero__section-7-hero .container .section-7-right h1 {
   color: #fff;
-  font-size: var(--soso-h1);
+  font-size: 1vw;
   padding: 15px 0;
   font-weight: 700;
 }
 
 .ts-hero__section-7-hero .container .section-7-right p {
   color: #fff;
-  font-size: var(--soso-p);
+  font-size: 1vw;
   line-height: 30px;
   text-align: justify;
 }

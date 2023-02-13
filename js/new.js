@@ -5,17 +5,17 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
   ScrollTrigger.create({
     trigger: elem,
     start: "top bottom",
-    end: "bottom 95%",
+    end: "bottom 98%",
     onEnter: () => gsap.to(".bkg-an", { backgroundColor: color }),
     /*   onLeave: () => gsap.to(".bkg-an", { backgroundColor: rgba(38, 38, 38, 1) }),
     onLeaveBack: () => gsap.to(".bkg-an", { backgroundColor: "transparent" }), */
     onEnterBack: () => gsap.to(".bkg-an", { backgroundColor: color }),
-    // markers: true,
+    markers: true,
   });
 });
 
 // =================== section 0 ==========================
-gsap.from(".hero-logo ", 0.5, {
+gsap.from(".hero-logo ", 1.5, {
   opacity: 0,
   ease: "easeIn",
   scrollTrigger: {
@@ -25,7 +25,7 @@ gsap.from(".hero-logo ", 0.5, {
     scrub: 1,
   },
 });
-gsap.from(".hero-text h1 ", 0.5, {
+gsap.from(".hero-text h1 ", 1.5, {
   Y: -100,
   opacity: 0,
   ease: "easeIn",
@@ -60,12 +60,12 @@ gsap.from(".section-1-img", 1, {
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 50%",
+    start: "top 60%",
     end: "bottom bottom",
     scrub: 1,
   },
 });
-gsap.from(".sec1-hero-title h1", 1, {
+gsap.from(".sec1-hero-title h1", 2, {
   x: 100,
   opacity: 0,
   ease: "easeInOut",
@@ -73,13 +73,13 @@ gsap.from(".sec1-hero-title h1", 1, {
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 50%",
+    start: "top 60%",
     end: "bottom bottom",
     scrub: 1,
   },
 });
 
-gsap.from("#section-1-p", 0.8, {
+gsap.from("#section-1-p", 2, {
   x: 100,
   opacity: 0,
   ease: "easeIn",
@@ -87,13 +87,13 @@ gsap.from("#section-1-p", 0.8, {
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
-    start: "top 50%",
+    start: "top 60%",
     end: "bottom bottom",
     scrub: 1,
   },
 });
 
-gsap.from("#scetion-1-an p", 2, {
+gsap.from("#scetion-1-an p", 3, {
   opacity: 0,
   x: 20,
   ease: "easeIn",
@@ -121,7 +121,7 @@ gsap.from(".section-2-img", 1, {
     scrub: 1,
   },
 });
-gsap.from(".sec2-hero-title h1", 1, {
+gsap.from(".sec2-hero-title h1", 2, {
   x: 100,
   opacity: 0,
   ease: "easeIn",
@@ -135,7 +135,7 @@ gsap.from(".sec2-hero-title h1", 1, {
   },
 });
 
-gsap.from("#section-2-p", 0.8, {
+gsap.from("#section-2-p", 2, {
   x: 100,
   opacity: 0,
   ease: "easeIn",
@@ -149,7 +149,7 @@ gsap.from("#section-2-p", 0.8, {
   },
 });
 
-gsap.from("#scetion-2-an p", 2, {
+gsap.from("#scetion-2-an p", 3, {
   opacity: 0,
   x: 20,
   ease: "easeIn",
@@ -176,7 +176,7 @@ gsap.from(".section-3-img", 1, {
     scrub: 1,
   },
 });
-gsap.from(".sec3-hero-title h1", 1, {
+gsap.from(".sec3-hero-title h1", 2, {
   x: 100,
   opacity: 0,
   ease: "easeIn",
@@ -190,7 +190,7 @@ gsap.from(".sec3-hero-title h1", 1, {
   },
 });
 
-gsap.from("#section-3-p", 0.8, {
+gsap.from("#section-3-p", 2, {
   x: 100,
   opacity: 0,
   ease: "easeIn",
@@ -204,7 +204,7 @@ gsap.from("#section-3-p", 0.8, {
   },
 });
 
-gsap.from("#scetion-3-an p", 2, {
+gsap.from("#scetion-3-an p", 3, {
   opacity: 0,
   x: 20,
   ease: "easeIn",
@@ -231,7 +231,7 @@ gsap.from(".section-4-img", 1, {
     scrub: 1,
   },
 });
-gsap.from(".sec4-hero-title h1", 1, {
+gsap.from(".sec4-hero-title h1", 2, {
   y: 100,
   opacity: 0,
   ease: "easeIn",
@@ -245,7 +245,7 @@ gsap.from(".sec4-hero-title h1", 1, {
   },
 });
 
-gsap.from("#section-4-p", 0.8, {
+gsap.from("#section-4-p", 2, {
   y: -100,
   opacity: 0,
   ease: "easeIn",
@@ -259,7 +259,7 @@ gsap.from("#section-4-p", 0.8, {
   },
 });
 
-gsap.from("#scetion-4-an p", 2, {
+gsap.from("#scetion-4-an p", 3, {
   opacity: 0,
   x: 20,
   ease: "easeIn",
