@@ -281,16 +281,6 @@ html {
   }
 }
 
-.ts-menu img {
-  width: 80px;
-  height: 40px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  /*    &:hover {
-                transform: scale(1.5);
-            }*/
-}
-
 .ts-menu li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,7 +291,14 @@ html {
 }
 
 .ts-menu li img {
+  width: 80px;
+  height: 40px;
   opacity: 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  /*    &:hover {
+                  transform: scale(1.5);
+              }*/
 }
 
 .ts-menu li a {

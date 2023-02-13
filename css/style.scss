@@ -349,19 +349,17 @@ html {
     @media (min-width: 100px) and (max-width: 989px) {
       display: none !important;
     }
-    img {
-      width: 80px;
-      height: 40px;
-      transition: 0.3s ease;
-      /*    &:hover {
-                transform: scale(1.5);
-            }*/
-    }
     li {
       display: flex;
       align-items: center;
       img {
+        width: 80px;
+        height: 40px;
         opacity: 0;
+        transition: 0.3s ease;
+        /*    &:hover {
+                  transform: scale(1.5);
+              }*/
       }
       a {
         text-decoration: none;

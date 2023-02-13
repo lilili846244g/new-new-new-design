@@ -315,7 +315,7 @@ gsap.from(".soso-img-5b", 2, {
 });
 /***************************************************/
 
-let links = gsap.utils.toArray(".ts-menu li a");
+/* let links = gsap.utils.toArray(".ts-menu li a");
 links.forEach((a) => {
   let element = document.querySelectorAll(a.getAttribute("href")),
     linkST = ScrollTrigger.create({
@@ -338,4 +338,46 @@ links.forEach((a) => {
 function setActive(link) {
   links.forEach((el) => el.classList.remove("active"));
   link.classList.add("active");
-}
+} */
+
+gsap.set(".ts-hero__sections", {
+  zIndex: (i, target, targets) => targets.length - i,
+});
+const links = gsap.utils.toArray("nav ul li a");
+const sections = gsap.utils.toArray(".section-main .ts-hero__sections");
+const navImg = gsap.utils.toArray("nav ul li img");
+
+links.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    gsap.to(".section-main", {
+      duration: 1,
+      scrollTo: { y: sections[index], autoKill: true, ease: "power2" },
+    });
+
+    for (let i = 0; i < 6; i++) {
+      prev = links;
+      if (prev[i].classList.contains("active")) {
+        prev[i].classList.remove("active");
+      }
+    }
+    btn.classList.add("active");
+  });
+});
+
+sections.forEach((section, i) => {
+  ScrollTrigger.create({
+    trigger: section,
+    start: "to top",
+    end: "bottom bottom",
+    markers: true,
+    onToggle: (self) => {
+      if (self.isActive) {
+        gsap.to(links[i], { scale: 1.3 });
+        gsap.to(navImg[i], { opacity: 1 });
+      } else {
+        gsap.to(links[i], { scale: 1 });
+        gsap.to(navImg[i], { opacity: 0 });
+      }
+    },
+  });
+});
