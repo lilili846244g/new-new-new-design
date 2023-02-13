@@ -315,9 +315,9 @@ gsap.from(".soso-img-5b", 2, {
 });
 /***************************************************/
 
-/* let links = gsap.utils.toArray(".ts-menu li a");
+let links = gsap.utils.toArray(".ts-menu li a");
 links.forEach((a) => {
-  let element = document.querySelector(a.getAttribute("href")),
+  let element = document.querySelectorAll(a.getAttribute("href")),
     linkST = ScrollTrigger.create({
       trigger: element,
       start: "top top",
@@ -326,7 +326,7 @@ links.forEach((a) => {
       trigger: element,
       start: "top top",
       end: "bottom bottom",
-    //  markers: true,
+      markers: true,
       onToggle: (self) => self.isActive && setActive(a),
     });
   a.addEventListener("click", function (e) {
@@ -339,4 +339,3 @@ function setActive(link) {
   links.forEach((el) => el.classList.remove("active"));
   link.classList.add("active");
 }
- */
