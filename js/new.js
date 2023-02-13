@@ -106,15 +106,15 @@ gsap.from(".hero-text p", 1, {
 });
 
 // =================== section 1 ==========================
-gsap.from(".ts-hero__section-1", 1, {
+gsap.from(".ts-hero__section-1", 0.5, {
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
-    //markers: true,
+    markers: true,
     start: "top 80%",
-    end: "bottom 90%",
+    end: "10% bottom",
     scrub: 1,
   },
 });
@@ -167,7 +167,7 @@ gsap.from("#scetion-1-an p", 3, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: "#scetion-1-an",
-    markers: true,
+    //markers: true,
     start: "top 60%",
     end: "bottom bottom",
     scrub: 3,
@@ -383,7 +383,7 @@ gsap.from(".soso-img", 1, {
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-5-hero",
-    markers: true,
+    //markers: true,
     start: "top 40%",
     end: "bottom bottom",
     scrub: 3,
@@ -433,7 +433,7 @@ gsap.from(".soso-img-5a", 1, {
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-6-hero",
-    markers: true,
+    //markers: true,
     start: "top 40%",
     end: "bottom bottom",
     scrub: 3,
@@ -483,7 +483,7 @@ gsap.from(".soso-img-5b", 1, {
   ease: "ease",
   scrollTrigger: {
     trigger: ".ts-hero__section-7-hero",
-    markers: true,
+    // markers: true,
     start: "top 40%",
     end: "bottom bottom",
     scrub: 3,
@@ -557,7 +557,7 @@ sections.forEach((section, i) => {
     trigger: section,
     start: "to top",
     end: "bottom bottom",
-    markers: true,
+    //markers: true,
     onToggle: (self) => {
       if (self.isActive) {
         gsap.to(links[i], { fontWeight: 700 });
