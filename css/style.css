@@ -39,6 +39,11 @@ html {
   width: 100vw;
 }
 
+.ts-hero__sections {
+  border: 1px solid red;
+  overflow: hidden;
+}
+
 @media only screen and (min-width: 991px) {
   html {
     font-size: 1vw;
@@ -133,11 +138,7 @@ html {
 .fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu img {
   width: 80px;
   height: 40px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  /*    &:hover {
-                            transform: scale(1.5);
-                        }*/
+  opacity: 0;
 }
 
 .fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu a {
@@ -146,6 +147,10 @@ html {
   color: #fff;
   font-weight: 300;
   overflow: hidden;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 @media (min-width: 500px) and (max-width: 989px) {
@@ -160,7 +165,13 @@ html {
   }
 }
 
-.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu li {
+.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu .active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  font-weight: 500;
+}
+
+.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu .mb-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,16 +180,12 @@ html {
           align-items: center;
 }
 
-.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu li .hidden {
-  opacity: 0;
-}
-
-.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu li:last-child {
+.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu .mb-link:last-child {
   margin-top: 20px;
   margin-left: 50px;
 }
 
-.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu li:last-child a {
+.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu .mb-link:last-child a {
   border: 1px solid white;
   padding: 20px;
   border-radius: 50%;
@@ -199,7 +206,7 @@ html {
   color: black;
 }
 
-.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu li:last-child a:last-child {
+.fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu .mb-link:last-child a:last-child {
   color: #fff;
   background-color: transparent;
 }
@@ -294,7 +301,7 @@ html {
           align-items: center;
 }
 
-.ts-menu li .hidden {
+.ts-menu li img {
   opacity: 0;
 }
 
@@ -303,6 +310,10 @@ html {
   font-size: 30px;
   color: #fff;
   font-weight: 300;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 @media (min-width: 1300px) and (max-width: 1500px) {
@@ -321,6 +332,12 @@ html {
   .ts-menu li a {
     font-size: 16px;
   }
+}
+
+.ts-menu li .active {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  font-weight: 500;
 }
 
 .ts-menu li:last-child {
@@ -534,32 +551,37 @@ html {
   }
 }
 
-.ts-hero__section-1-hero .sec1-hero-title-img img {
-  width: 600px;
-  height: 600px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  mix-blend-mode: multiply;
+.ts-hero__section-1-hero .sec1-hero-title-img .outt {
+  width: 800px;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+  overflow: hidden;
+}
+
+.ts-hero__section-1-hero .sec1-hero-title-img .outt img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 600px;
+  height: 600px;
+  mix-blend-mode: multiply;
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img img {
+  .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
     width: 450px;
     height: 450px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 899px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img img {
+  .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
     width: 400px;
     height: 400px;
   }
 }
 
 @media (min-width: 200px) and (max-width: 599px) {
-  .ts-hero__section-1-hero .sec1-hero-title-img img {
+  .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
     width: 100px;
     height: 100px;
   }
@@ -741,11 +763,7 @@ html {
 .ts-hero__section-2-hero .sec1-hero-title-img img {
   width: 600px;
   height: 600px;
-  -o-object-fit: contain;
-     object-fit: contain;
   mix-blend-mode: multiply;
-  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
-          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
@@ -946,11 +964,7 @@ html {
 .ts-hero__section-3-hero .sec1-hero-title-img img {
   width: 600px;
   height: 600px;
-  -o-object-fit: contain;
-     object-fit: contain;
   mix-blend-mode: multiply;
-  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
-          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
@@ -1150,11 +1164,7 @@ html {
 .ts-hero__section-4-hero .sec1-hero-title-img img {
   width: 600px;
   height: 600px;
-  -o-object-fit: contain;
-     object-fit: contain;
   mix-blend-mode: multiply;
-  -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
-          clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
 }
 
 @media (min-width: 900px) and (max-width: 1299px) {
