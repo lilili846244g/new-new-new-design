@@ -17,12 +17,14 @@
     height: 40vh;
   }
   @media (min-width: 575px) and (max-width: 767px) {
-    max-width: 55vw;
+    max-width: 50vw;
     height: auto;
+    margin-top: 0px;
   }
   @media (min-width: 100px) and (max-width: 574px) {
     max-width: 60vw;
     height: auto;
+    margin-top: 0px;
   }
 }
 
@@ -97,7 +99,7 @@
     font-size: 2.6vw;
   }
   @media (min-width: 100px) and (max-width: 767px) {
-    font-size: 2.4vw;
+    font-size: 3vw;
   }
 }
 
@@ -112,7 +114,7 @@
   @media (min-width: 100px) and (max-width: 767px) {
     font-size: 2.6vw;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 24px;
   }
 }
 
@@ -158,6 +160,7 @@
   }
   @media (min-width: 100px) and (max-width: 767px) {
     font-size: 4vw;
+    padding: 0;
   }
 }
 
@@ -793,6 +796,7 @@ html {
       }
       @media (min-width: 100px) and (max-width: 991px) {
         margin-top: 0;
+        height: 100%;
       }
       img {
         width: 100%;
@@ -845,7 +849,7 @@ html {
         }
         @media (min-width: 100px) and (max-width: 991px) {
           width: 100%;
-          height: auto;
+          height: 100%;
           margin-bottom: 30px;
         }
       }
@@ -912,6 +916,13 @@ footer {
           box-shadow: 1px 2px 10px #c5c0c0;
         }
       }
+    }
+  }
+  .box-4 {
+    float: right;
+    @media (min-width: 100px) and (max-width: 767px) {
+      float: none !important;
+      margin: 0 !important;
     }
   }
 }
