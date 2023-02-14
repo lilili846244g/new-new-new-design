@@ -1,6 +1,6 @@
-/********************  navbar  ************************ */
-var menuToggle = document.getElementById("menuToggle");
+/******************** Mobile  Navbar  ************************ */
 
+var menuToggle = document.getElementById("menuToggle");
 var menuBar = gsap.timeline({
   paused: true,
 });
@@ -71,8 +71,53 @@ menuToggle.addEventListener("click", function () {
   t1.reversed(!t1.reversed());
 });
 
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+/********************* Desktop Navbar  **************************** */
 
+gsap.set(".ts-hero__sections", {
+  zIndex: (i, target, targets) => targets.length - i,
+});
+const links = gsap.utils.toArray("nav ul li a");
+const sections = gsap.utils.toArray(".section-main .ts-hero__sections");
+const navImg = gsap.utils.toArray("nav ul li img");
+
+links.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    gsap.to(".section-main", {
+      duration: 1,
+      scrollTo: { y: sections[index], autoKill: true, ease: "power2" },
+    });
+
+    for (let i = 0; i < 6; i++) {
+      prev = links;
+      if (prev[i].classList.contains("active")) {
+        prev[i].classList.remove("active");
+      }
+    }
+    btn.classList.add("active");
+  });
+});
+
+sections.forEach((section, i) => {
+  ScrollTrigger.create({
+    trigger: section,
+    start: "to top",
+    end: "bottom bottom",
+    //markers: true,
+    onToggle: (self) => {
+      if (self.isActive) {
+        gsap.to(links[i], { fontWeight: 700 });
+        gsap.to(navImg[i], { opacity: 1 });
+      } else {
+        gsap.to(links[i], { fontWeight: 100 });
+        gsap.to(navImg[i], { opacity: 0 });
+      }
+    },
+  });
+});
+
+/*********************  Change Background Color  *****************************/
+
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
   var color = elem.getAttribute("data-color");
   ScrollTrigger.create({
@@ -86,6 +131,10 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     //markers: true,
   });
 });
+
+/*********************
+   Scroll Animate 
+**********************/
 
 // =================== section 0 ==========================
 gsap.from(".hero-logo", 0.5, {
@@ -123,7 +172,7 @@ gsap.from(".section-1-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
+
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
@@ -133,7 +182,7 @@ gsap.from(".section-1-img", 1, {
   },
 });
 gsap.from(".sec1-hero-title h1", 2, {
-  x: 100,
+  y: 50,
   opacity: 0,
   ease: "easeInOut",
   stagger: 0.5,
@@ -147,7 +196,7 @@ gsap.from(".sec1-hero-title h1", 2, {
 });
 
 gsap.from("#section-1-p", 2, {
-  x: 100,
+  y: -50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
@@ -201,7 +250,7 @@ gsap.from(".section-2-img", 1, {
   },
 });
 gsap.from(".sec2-hero-title h1", 2, {
-  x: 100,
+  y: 50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
@@ -215,7 +264,7 @@ gsap.from(".sec2-hero-title h1", 2, {
 });
 
 gsap.from("#section-2-p", 2, {
-  x: 100,
+  y: -50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
@@ -268,7 +317,7 @@ gsap.from(".section-3-img", 1, {
   },
 });
 gsap.from(".sec3-hero-title h1", 2, {
-  x: 100,
+  y: 50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
@@ -282,7 +331,7 @@ gsap.from(".sec3-hero-title h1", 2, {
 });
 
 gsap.from("#section-3-p", 2, {
-  x: 100,
+  y: -50,
   opacity: 0,
   ease: "easeIn",
   stagger: 0.5,
@@ -526,46 +575,5 @@ gsap.from(".section-7-right p", 2, {
     scrub: 3,
   },
 });
-/***************************************************/
 
-gsap.set(".ts-hero__sections", {
-  zIndex: (i, target, targets) => targets.length - i,
-});
-const links = gsap.utils.toArray("nav ul li a");
-const sections = gsap.utils.toArray(".section-main .ts-hero__sections");
-const navImg = gsap.utils.toArray("nav ul li img");
-
-links.forEach((btn, index) => {
-  btn.addEventListener("click", () => {
-    gsap.to(".section-main", {
-      duration: 1,
-      scrollTo: { y: sections[index], autoKill: true, ease: "power2" },
-    });
-
-    for (let i = 0; i < 6; i++) {
-      prev = links;
-      if (prev[i].classList.contains("active")) {
-        prev[i].classList.remove("active");
-      }
-    }
-    btn.classList.add("active");
-  });
-});
-
-sections.forEach((section, i) => {
-  ScrollTrigger.create({
-    trigger: section,
-    start: "to top",
-    end: "bottom bottom",
-    //markers: true,
-    onToggle: (self) => {
-      if (self.isActive) {
-        gsap.to(links[i], { fontWeight: 700 });
-        gsap.to(navImg[i], { opacity: 1 });
-      } else {
-        gsap.to(links[i], { fontWeight: 100 });
-        gsap.to(navImg[i], { opacity: 0 });
-      }
-    },
-  });
-});
+/******************** END *******************************/
