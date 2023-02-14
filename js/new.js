@@ -199,7 +199,6 @@ gsap.from(".ts-hero__section-1", 0.5, {
     scrub: 1,
   },
 });
-gsap;
 gsap.from(".section-1-img", 1, {
   scale: 3,
   opacity: 0,
