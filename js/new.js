@@ -161,7 +161,7 @@ gsap.from(".ts-hero__section-1", 0.5, {
   stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
-    markers: true,
+    //markers: true,
     start: "top 80%",
     end: "10% bottom",
     scrub: 1,
