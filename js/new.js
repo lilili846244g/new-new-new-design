@@ -84,9 +84,9 @@ mbLink.forEach((btn, index) => {
 gsap.set(".ts-hero__sections", {
   zIndex: (i, target, targets) => targets.length - i,
 });
-const links = gsap.utils.toArray("nav ul li a");
+const links = gsap.utils.toArray("nav .ts-menu li a");
 const sections = gsap.utils.toArray(".section-main .ts-hero__sections");
-const navImg = gsap.utils.toArray("nav ul li img");
+const navImg = gsap.utils.toArray("nav .ts-menu li .navImg");
 
 links.forEach((btn, index) => {
   btn.addEventListener("click", () => {
@@ -95,13 +95,13 @@ links.forEach((btn, index) => {
       scrollTo: { y: sections[index], ease: "power2" },
     });
 
-    for (let i = 0; i < 6; i++) {
+    /* for (let i = 0; i < 6; i++) {
       prev = links;
       if (prev[i].classList.contains("active")) {
         prev[i].classList.remove("active");
       }
     }
-    btn.classList.add("active");
+    btn.classList.add("active"); */
   });
 });
 

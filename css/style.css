@@ -563,7 +563,6 @@ html {
 }
 
 .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-  mix-blend-mode: overlay !important;
   position: relative;
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
@@ -618,6 +617,7 @@ html {
   left: 0;
   width: 650px;
   height: 550px;
+  opacity: 0.6;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -884,7 +884,6 @@ html {
   overflow: hidden;
   width: 650px;
   height: 550px;
-  mix-blend-mode: multiply;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
@@ -933,6 +932,7 @@ html {
   left: 0;
   width: 650px;
   height: 550px;
+  opacity: 0.6;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -1200,7 +1200,6 @@ html {
   overflow: hidden;
   width: 650px;
   height: 550px;
-  mix-blend-mode: overlay;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
@@ -1249,6 +1248,7 @@ html {
   left: 0;
   width: 650px;
   height: 550px;
+  opacity: 0.6;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -1515,7 +1515,6 @@ html {
   overflow: hidden;
   width: 650px;
   height: 550px;
-  mix-blend-mode: overlay;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
@@ -1564,6 +1563,7 @@ html {
   left: 0;
   width: 650px;
   height: 550px;
+  opacity: 0.6;
   -o-object-fit: fill;
      object-fit: fill;
 }
@@ -2433,10 +2433,25 @@ footer .box-4 {
   float: right;
 }
 
-@media (min-width: 100px) and (max-width: 767px) {
+@media (min-width: 566px) and (max-width: 991px) {
   footer .box-4 {
-    float: none !important;
     margin: 0 !important;
+    float: none !important;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 565px) {
+  footer .box-4 {
+    margin-left: -24px !important;
+    float: left !important;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 565px) {
+  footer .box-1,
+  footer .box-2,
+  footer .box-3 {
+    margin-left: -24px;
   }
 }
 

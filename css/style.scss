@@ -76,6 +76,7 @@
   left: 0;
   width: 650px;
   height: 550px;
+  opacity: 0.6;
   object-fit: fill;
   @media (min-width: 1300px) and (max-width: 1566px) {
     width: 600px;
@@ -624,7 +625,6 @@ html {
     .sec1-hero-title-img {
       @include section-hero-text-img;
       .outt {
-        mix-blend-mode: overlay !important;
         @include outt-part;
         img {
           mix-blend-mode: overlay !important;
@@ -668,7 +668,6 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
-        mix-blend-mode: multiply;
         img {
           object-fit: contain;
           mix-blend-mode: multiply !important;
@@ -712,7 +711,6 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
-        mix-blend-mode: overlay;
         img {
           object-fit: contain;
           mix-blend-mode: overlay;
@@ -755,7 +753,6 @@ html {
       @include section-hero-text-img;
       .outt {
         @include outt-part;
-        mix-blend-mode: overlay;
         img {
           object-fit: contain;
           mix-blend-mode: overlay;
@@ -1066,9 +1063,20 @@ footer {
   }
   .box-4 {
     float: right;
-    @media (min-width: 100px) and (max-width: 767px) {
-      float: none !important;
+    @media (min-width: 566px) and (max-width: 991px) {
       margin: 0 !important;
+      float: none !important;
+    }
+    @media (min-width: 100px) and (max-width: 565px) {
+      margin-left: -24px !important;
+      float: left !important;
+    }
+  }
+  .box-1,
+  .box-2,
+  .box-3 {
+    @media (min-width: 100px) and (max-width: 565px) {
+      margin-left: -24px;
     }
   }
 }
