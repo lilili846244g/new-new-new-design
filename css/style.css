@@ -2206,6 +2206,30 @@ footer .footer h4 {
   margin-bottom: 1rem;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .footer h4 {
+    font-size: 1.8vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  footer .footer h4 {
+    font-size: 2.8vw;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  footer .footer h4 {
+    font-size: 3.3vw;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 399px) {
+  footer .footer h4 {
+    font-size: 4.2vw;
+  }
+}
+
 footer .footer ul {
   list-style: none;
 }
@@ -2226,6 +2250,12 @@ footer .footer ul li a {
   font-size: 1vw;
   text-decoration: none;
   color: #3f3e3e;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .footer ul li a {
+    font-size: 1.5vw;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
