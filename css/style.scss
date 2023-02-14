@@ -16,13 +16,18 @@
     max-width: 65vw;
     height: 40vh;
   }
-  @media (min-width: 575px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
     max-width: 50vw;
     height: auto;
     margin-top: 0px;
   }
-  @media (min-width: 100px) and (max-width: 574px) {
-    max-width: 60vw;
+  @media (min-width: 400px) and (max-width: 575px) {
+    max-width: 65vw;
+    height: auto;
+    margin-top: 0px;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    max-width: 90vw;
     height: auto;
     margin-top: 0px;
   }
@@ -46,16 +51,16 @@
     height: 500px;
   }
   @media (min-width: 768px) and (max-width: 1299px) {
-    width: 420px;
+    width: 500px;
     height: 420px;
   }
-  @media (min-width: 500px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
     width: 400px;
     height: 400px;
   }
-  @media (min-width: 200px) and (max-width: 499px) {
-    width: 100px;
-    height: 100px;
+  @media (min-width: 400px) and (max-width: 575px) {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -63,8 +68,24 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 550px;
+  height: 550px;
+  @media (min-width: 1300px) and (max-width: 1566px) {
+    width: 500px;
+    height: 500px;
+  }
+  @media (min-width: 768px) and (max-width: 1299px) {
+    width: 500px;
+    height: 420px;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    width: 400px;
+    height: 400px;
+  }
+  @media (min-width: 400px) and (max-width: 575px) {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @mixin section-title {
@@ -86,9 +107,15 @@
   @media (min-width: 768px) and (max-width: 989px) {
     font-size: 6vw;
   }
-  @media (min-width: 100px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
     font-size: 6.8vw;
     font-weight: bold;
+  }
+  @media (min-width: 400px) and (max-width: 575px) {
+    font-size: 8vw;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    font-size: 8.5vw;
   }
 }
 
@@ -98,8 +125,14 @@
   @media (min-width: 768px) and (max-width: 989px) {
     font-size: 2.6vw;
   }
-  @media (min-width: 100px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
     font-size: 3vw;
+  }
+  @media (min-width: 400px) and (max-width: 575px) {
+    font-size: 4vw;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    font-size: 4.5vw;
   }
 }
 
@@ -111,10 +144,20 @@
   @media (min-width: 768px) and (max-width: 989px) {
     font-size: 2.4vw;
   }
-  @media (min-width: 100px) and (max-width: 767px) {
+  @media (min-width: 576px) and (max-width: 767px) {
     font-size: 2.6vw;
     font-weight: 500;
     line-height: 24px;
+  }
+  @media (min-width: 400px) and (max-width: 575px) {
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 20px;
   }
 }
 
@@ -688,8 +731,13 @@ html {
   .container {
     min-height: 100vh;
     padding-top: 150px;
-    @media (min-width: 100px) and (max-width: 991px) {
-      padding-top: 0px !important;
+    @media (min-width: 576px) and (max-width: 991px) {
+      padding-top: 0 !important;
+    }
+    @media (min-width: 100px) and (max-width: 575px) {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      margin: 0 !important;
     }
     .section-5-left {
       width: 100%;
@@ -711,9 +759,15 @@ html {
           width: 55%;
           height: 55%;
         }
-        @media (min-width: 100px) and (max-width: 991px) {
+        @media (min-width: 576px) and (max-width: 991px) {
           width: 100%;
           height: auto;
+          margin-bottom: 30px;
+        }
+        @media (min-width: 100px) and (max-width: 575px) {
+          width: 100%;
+          height: 80%;
+          overflow: visible;
           margin-bottom: 30px;
         }
       }
@@ -757,6 +811,14 @@ html {
   .container {
     min-height: 100vh;
     padding-top: 150px;
+    @media (min-width: 576px) and (max-width: 991px) {
+      padding-top: 0 !important;
+    }
+    @media (min-width: 100px) and (max-width: 575px) {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      margin: 0 !important;
+    }
     .row {
       @media (min-width: 200px) and (max-width: 991px) {
         flex-direction: column-reverse !important;
@@ -811,9 +873,15 @@ html {
           width: 70%;
           height: 70%;
         }
-        @media (min-width: 100px) and (max-width: 991px) {
+        @media (min-width: 576px) and (max-width: 991px) {
           width: 100%;
           height: 100%;
+          margin-bottom: 30px;
+        }
+        @media (min-width: 100px) and (max-width: 575px) {
+          width: 100%;
+          height: 80%;
+          overflow: visible;
           margin-bottom: 30px;
         }
       }
@@ -829,6 +897,15 @@ html {
   .container {
     min-height: 100vh;
     padding-top: 150px;
+    @media (min-width: 576px) and (max-width: 991px) {
+      padding-top: 0 !important;
+    }
+    @media (min-width: 100px) and (max-width: 575px) {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+      padding-top: 0 !important;
+      margin: 0 !important;
+    }
     .section-7-left {
       width: 100%;
       height: 45vh;
@@ -847,10 +924,17 @@ html {
           width: 60%;
           height: 60%;
         }
-        @media (min-width: 100px) and (max-width: 991px) {
+        @media (min-width: 576px) and (max-width: 991px) {
           width: 100%;
           height: 100%;
           margin-bottom: 30px;
+        }
+        @media (min-width: 100px) and (max-width: 575px) {
+          width: 100%;
+          height: 100%;
+          overflow: visible;
+          margin-bottom: 30px;
+          margin-top: 0px;
         }
       }
     }
@@ -863,6 +947,7 @@ html {
       }
       @media (min-width: 100px) and (max-width: 991px) {
         padding: 0px;
+        height: 100%;
       }
       .flex-img-h1 {
         @include soso-flex-img-h1;
