@@ -71,6 +71,14 @@ menuToggle.addEventListener("click", function () {
   t1.reversed(!t1.reversed());
 });
 
+var mbLink = gsap.utils.toArray(".mb-ts-menu .mb-link a");
+mbLink.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    t1.reverse();
+    menuBar.reverse();
+  });
+});
+
 /********************* Desktop Navbar  **************************** */
 
 gsap.set(".ts-hero__sections", {
@@ -84,7 +92,7 @@ links.forEach((btn, index) => {
   btn.addEventListener("click", () => {
     gsap.to(".section-main", {
       duration: 1,
-      scrollTo: { y: sections[index], autoKill: true, ease: "power2" },
+      scrollTo: { y: sections[index], ease: "power2" },
     });
 
     for (let i = 0; i < 6; i++) {
