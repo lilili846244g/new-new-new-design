@@ -95,17 +95,17 @@ links.forEach((btn, index) => {
       scrollTo: { y: sections[index], ease: "power2" },
     });
 
-    /* for (let i = 0; i < 6; i++) {
+    /*  for (let i = 0; i < 6; i++) {
       prev = links;
       if (prev[i].classList.contains("active")) {
         prev[i].classList.remove("active");
       }
     }
-    btn.classList.add("active"); */
+    btn.classList.add("active");  */
   });
 });
 
-sections.forEach((section, i) => {
+/* sections.forEach((section, i) => {
   ScrollTrigger.create({
     trigger: section,
     start: "to top",
@@ -121,8 +121,32 @@ sections.forEach((section, i) => {
       }
     },
   });
-});
+}); */
 
+sections.forEach((section, i) => {
+  ScrollTrigger.create({
+    trigger: section,
+    start: "top top",
+    end: "bottom bottom",
+    //markers: true,
+    onLeave: () => {
+      if (links[i + 1]) {
+        gsap.to(links[i + 1], { fontWeight: 700 });
+        gsap.to(links[i], { fontWeight: 100 });
+        gsap.to(navImg[i + 1], { opacity: 1 });
+        gsap.to(navImg[i], { opacity: 0 });
+      }
+    },
+    onEnterBack: () => {
+      gsap.to(links[i], { fontWeight: 700 });
+      gsap.to(navImg[i], { opacity: 1 });
+      if (links[i + 1]) {
+        gsap.to(links[i + 1], { fontWeight: 100 });
+        gsap.to(navImg[i + 1], { opacity: 0 });
+      }
+    },
+  });
+});
 /*********************  Change Background Color  *****************************/
 
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
