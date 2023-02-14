@@ -43,18 +43,6 @@ html {
   overflow: hidden;
 }
 
-@media only screen and (min-width: 991px) {
-  html {
-    font-size: 1vw;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  html {
-    font-size: 100%;
-  }
-}
-
 /************ mobile menu **************/
 .fullpage-menu {
   position: fixed;
@@ -580,21 +568,28 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 600px;
+  width: 650px;
   height: 550px;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-1-hero .sec1-hero-title-img .outt {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -621,21 +616,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 650px;
   height: 550px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -646,7 +650,7 @@ html {
   }
 }
 
-@media (min-width: 400px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
     width: 300px;
     height: 300px;
@@ -779,8 +783,30 @@ html {
   color: var(--background-color-1);
 }
 
-@media (min-width: 200px) and (max-width: 989px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-1 .btn {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .ts-hero__section-1 .btn {
+    font-size: 2vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .ts-hero__section-1 .btn {
+    font-size: 2.8vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-1 .btn {
+    font-size: 3.8vw;
     width: 80%;
   }
 }
@@ -856,22 +882,29 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 600px;
+  width: 650px;
   height: 550px;
   mix-blend-mode: multiply;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-2-hero .sec2-hero-title-img .outt {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -898,21 +931,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 650px;
   height: 550px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -923,7 +965,7 @@ html {
   }
 }
 
-@media (min-width: 400px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
     width: 300px;
     height: 300px;
@@ -1057,8 +1099,30 @@ html {
   color: var(--background-color-2);
 }
 
-@media (min-width: 200px) and (max-width: 989px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-2 .btn {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .ts-hero__section-2 .btn {
+    font-size: 2vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .ts-hero__section-2 .btn {
+    font-size: 2.8vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-2 .btn {
+    font-size: 3.8vw;
     width: 80%;
   }
 }
@@ -1134,22 +1198,29 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 600px;
+  width: 650px;
   height: 550px;
   mix-blend-mode: overlay;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-3-hero .sec3-hero-title-img .outt {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -1176,21 +1247,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 650px;
   height: 550px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -1201,7 +1281,7 @@ html {
   }
 }
 
-@media (min-width: 400px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
     width: 300px;
     height: 300px;
@@ -1334,8 +1414,30 @@ html {
   color: var(--background-color-3);
 }
 
-@media (min-width: 200px) and (max-width: 989px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-3 .btn {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .ts-hero__section-3 .btn {
+    font-size: 2vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .ts-hero__section-3 .btn {
+    font-size: 2.8vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-3 .btn {
+    font-size: 3.8vw;
     width: 80%;
   }
 }
@@ -1411,22 +1513,29 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 600px;
+  width: 650px;
   height: 550px;
   mix-blend-mode: overlay;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-4-hero .sec4-hero-title-img .outt {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -1453,21 +1562,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 650px;
   height: 550px;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1299px) {
+@media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
-    width: 430px;
+    width: 600px;
     height: 430px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 988px) {
+  .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
+    width: 550px;
+    height: 400px;
   }
 }
 
@@ -1478,7 +1596,7 @@ html {
   }
 }
 
-@media (min-width: 400px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
     width: 300px;
     height: 300px;
@@ -1611,8 +1729,30 @@ html {
   color: var(--background-color-4);
 }
 
-@media (min-width: 200px) and (max-width: 989px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-4 .btn {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .ts-hero__section-4 .btn {
+    font-size: 2vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+  .ts-hero__section-4 .btn {
+    font-size: 2.8vw;
+    width: 80%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-4 .btn {
+    font-size: 3.8vw;
     width: 80%;
   }
 }

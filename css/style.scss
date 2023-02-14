@@ -44,15 +44,19 @@
     88.93% 29.28%
   );
   overflow: hidden;
-  width: 600px;
+  width: 650px;
   height: 550px;
   @media (min-width: 1300px) and (max-width: 1566px) {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
-  @media (min-width: 768px) and (max-width: 1299px) {
-    width: 430px;
+  @media (min-width: 989px) and (max-width: 1299px) {
+    width: 600px;
     height: 430px;
+  }
+  @media (min-width: 768px) and (max-width: 988px) {
+    width: 550px;
+    height: 400px;
   }
   @media (min-width: 576px) and (max-width: 767px) {
     width: 400px;
@@ -70,21 +74,26 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 600px;
+  width: 650px;
   height: 550px;
+  object-fit: fill;
   @media (min-width: 1300px) and (max-width: 1566px) {
-    width: 500px;
+    width: 600px;
     height: 500px;
   }
-  @media (min-width: 768px) and (max-width: 1299px) {
-    width: 430px;
+  @media (min-width: 989px) and (max-width: 1299px) {
+    width: 600px;
     height: 430px;
+  }
+  @media (min-width: 768px) and (max-width: 988px) {
+    width: 550px;
+    height: 400px;
   }
   @media (min-width: 576px) and (max-width: 767px) {
     width: 400px;
     height: 400px;
   }
-  @media (min-width: 400px) and (max-width: 575px) {
+  @media (min-width: 100px) and (max-width: 575px) {
     width: 300px;
     height: 300px;
   }
@@ -169,7 +178,20 @@
   border-radius: 25px;
   font-size: 1vw;
   cursor: pointer !important;
-  @media (min-width: 200px) and (max-width: 989px) {
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    font-size: 2vw;
+    width: 80%;
+  }
+  @media (min-width: 400px) and (max-width: 575px) {
+    font-size: 2.8vw;
+    width: 80%;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    font-size: 3.8vw;
     width: 80%;
   }
 }
@@ -321,18 +343,6 @@ html {
 
 .ts-hero__sections {
   overflow: hidden;
-}
-
-@media only screen and (min-width: 991px) {
-  html {
-    font-size: 1vw;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  html {
-    font-size: 100%;
-  }
 }
 
 /************ mobile menu **************/

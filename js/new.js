@@ -236,7 +236,7 @@ gsap.from(".ts-hero__section-2", 1, {
     scrub: 1,
   },
 });
-/* gsap.from(".section-2-img", 1, {
+gsap.from(".section-2-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
@@ -248,7 +248,7 @@ gsap.from(".ts-hero__section-2", 1, {
     end: "bottom bottom",
     scrub: 1,
   },
-}); */
+});
 gsap.from(".sec2-hero-title h1", 2, {
   y: 50,
   opacity: 0,
