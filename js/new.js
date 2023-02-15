@@ -187,7 +187,13 @@ gsap.from(".hero-text p", 1, {
   ease: "easeIn",
   stagger: 0.5,
 });
-
+gsap.from(".box", {
+  "-webkit-mask-image":
+    "-webkit-linear-gradient( rgb(0, 0, 0) 0%,rgb(0, 0, 0) 80%,rgba(0, 0, 0, 0) 100%",
+  duration: 2.0,
+  ease: "none",
+  paused: true,
+});
 /* gsap.to(".hero-bg-img", 0.5, {
   opacity: 0,
   ease: "easeIn",

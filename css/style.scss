@@ -311,7 +311,7 @@
 }
 
 body {
-  background-color: rgba(139, 69, 69, 1);
+  background-color: rgba(30, 30, 30, 1);
 }
 
 body,
@@ -670,6 +670,9 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
+  @media (min-width: 200px) and (max-width: 599px) {
+    padding: 1rem;
+  }
   &-hero {
     @include hero-hero;
     .sec2-hero-title-img {
@@ -717,6 +720,9 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
+  @media (min-width: 200px) and (max-width: 599px) {
+    padding: 1rem;
+  }
   &-hero {
     @include hero-hero;
     .sec3-hero-title-img {
@@ -763,6 +769,9 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
+  @media (min-width: 200px) and (max-width: 599px) {
+    padding: 1rem;
+  }
   &-hero {
     @include hero-hero;
     .sec4-hero-title-img {
@@ -809,6 +818,9 @@ html {
   width: 100%;
   height: auto !important;
   padding: 1rem;
+  @media (min-width: 200px) and (max-width: 599px) {
+    padding: 1rem;
+  }
   .container {
     min-height: 100vh;
     padding-top: 120px;
