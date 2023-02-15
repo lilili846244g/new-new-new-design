@@ -15,6 +15,7 @@
   --text-color-2: rgba(255, 244, 201, 1);
   --text-color-3: rgba(189, 217, 228, 1);
   --text-color-4: rgba(119, 208, 205, 1);
+  --hero-h1: rgba(249, 201, 75, 1);
   --title-fontz-1-4: 80px;
   --Content-fontz-1-4: 48px;
   --soso-h1: 48px;
@@ -350,7 +351,7 @@ html {
 /************************** 關於黃蜂香港 section-0  ***********************************************/
 .ts-hero__section-0 {
   width: 100%;
-  height: auto !important;
+  height: 100vh !important;
   max-height: 120vh;
   position: relative;
 }
@@ -423,7 +424,8 @@ html {
   word-break: break-all;
   font-size: 3.5vw;
   color: #fff;
-  color: var(--background-color-2);
+  color: var(--hero-h1);
+  margin-top: 23px;
   /*   @media (min-width: 600px) and (max-width: 899px) {
           font-size: 50px;
         }
@@ -489,7 +491,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-0 .ts-text-con .hero-text p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 500;
     line-height: 20px;
   }
@@ -567,27 +569,27 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 750px;
+  width: 968.73px;
   height: 550px;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-    width: 650px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -615,30 +617,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 650px;
+  width: 968.73px;
   height: 550px;
-  opacity: 0.6;
+  opacity: 1;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
-    width: 600px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .outt img {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -768,7 +770,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-1 .text-an p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 500;
     line-height: 20px;
   }
@@ -809,6 +811,11 @@ html {
     font-size: 3.8vw;
     width: 80%;
   }
+}
+
+.ts-hero__section-1 .btn:hover {
+  background: transparent;
+  border: 0.1rem solid var(--text-color-1);
 }
 
 /**************************WASP HYBRID section-2  ***********************************************/
@@ -882,27 +889,27 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 750px;
+  width: 968.73px;
   height: 550px;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt {
-    width: 650px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -930,30 +937,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 650px;
+  width: 968.73px;
   height: 550px;
-  opacity: 0.6;
+  opacity: 1;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
-    width: 600px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .outt img {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -1057,7 +1064,7 @@ html {
   font-size: 1.8vw;
   text-align: center;
   margin: 10px 0;
-  color: #fff;
+  color: var(--text-color-2);
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
@@ -1084,7 +1091,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-2 .text-an p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 500;
     line-height: 20px;
   }
@@ -1125,6 +1132,11 @@ html {
     font-size: 3.8vw;
     width: 80%;
   }
+}
+
+.ts-hero__section-2 .btn:hover {
+  background: transparent;
+  border: 0.1rem solid var(--text-color-2);
 }
 
 /*********************** AI Parking Bees  section-3 **************************************/
@@ -1198,27 +1210,27 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 750px;
+  width: 968.73px;
   height: 550px;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt {
-    width: 650px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -1246,30 +1258,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 650px;
+  width: 968.73px;
   height: 550px;
-  opacity: 0.6;
+  opacity: 1;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
-    width: 600px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .outt img {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -1372,7 +1384,7 @@ html {
   font-size: 1.8vw;
   text-align: center;
   margin: 10px 0;
-  color: #fff;
+  color: var(--text-color-3);
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
@@ -1399,7 +1411,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-3 .text-an p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 500;
     line-height: 20px;
   }
@@ -1440,6 +1452,11 @@ html {
     font-size: 3.8vw;
     width: 80%;
   }
+}
+
+.ts-hero__section-3 .btn:hover {
+  background: transparent;
+  border: 0.1rem solid var(--text-color-3);
 }
 
 /*********************** Mr. Wrapper section-4  **************************************/
@@ -1513,27 +1530,27 @@ html {
   -webkit-clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
           clip-path: polygon(89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
   overflow: hidden;
-  width: 750px;
+  width: 968.73px;
   height: 550px;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt {
-    width: 650px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -1561,30 +1578,30 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  width: 650px;
+  width: 968.73px;
   height: 550px;
-  opacity: 0.6;
+  opacity: 1;
   -o-object-fit: fill;
      object-fit: fill;
 }
 
 @media (min-width: 1300px) and (max-width: 1566px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
-    width: 600px;
+    width: 841.8px;
     height: 500px;
   }
 }
 
 @media (min-width: 989px) and (max-width: 1299px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
-    width: 600px;
+    width: 694.05px;
     height: 430px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 988px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .outt img {
-    width: 550px;
+    width: 668.8px;
     height: 400px;
   }
 }
@@ -1714,7 +1731,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-4 .text-an p {
-    font-size: 5vw;
+    font-size: 4.5vw;
     font-weight: 500;
     line-height: 20px;
   }
@@ -1755,6 +1772,11 @@ html {
     font-size: 3.8vw;
     width: 80%;
   }
+}
+
+.ts-hero__section-4 .btn:hover {
+  background: transparent;
+  border: 0.1rem solid var(--text-color-4);
 }
 
 /*********************** 企業責任-1 section-5  **************************************/
@@ -1944,7 +1966,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-5 .container .section-5-right p {
-    font-size: 3.8vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -2089,7 +2111,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-6-hero .container .section-6-left p {
-    font-size: 3.8vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -2327,7 +2349,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-7-hero .container .section-7-right p {
-    font-size: 3.8vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -2425,15 +2447,14 @@ footer .footer ul li .img-4 {
   margin-bottom: 2rem;
   padding: 10px;
   border-radius: 5px;
-  -webkit-box-shadow: 1px 2px 10px #c5c0c0;
-          box-shadow: 1px 2px 10px #c5c0c0;
+  margin-right: 50px;
 }
 
 footer .box-4 {
   float: right;
 }
 
-@media (min-width: 566px) and (max-width: 991px) {
+@media (min-width: 566px) and (max-width: 1282px) {
   footer .box-4 {
     margin: 0 !important;
     float: none !important;

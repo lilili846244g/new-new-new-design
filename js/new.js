@@ -156,10 +156,12 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     trigger: elem,
     start: "30% 90%",
     end: "bottom 98%",
-    onEnter: () => gsap.to(".bkg-an", { backgroundColor: color }),
-    /*   onLeave: () => gsap.to(".bkg-an", { backgroundColor: rgba(38, 38, 38, 1) }),
-    onLeaveBack: () => gsap.to(".bkg-an", { backgroundColor: "transparent" }), */
-    onEnterBack: () => gsap.to(".bkg-an", { backgroundColor: color }),
+    onEnter: () => gsap.to(".section-main", { backgroundColor: color }),
+    onLeave: () =>
+      gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 1)" }),
+    /*  onLeaveBack: () =>
+      gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
+    onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
     //markers: true,
   });
 });
@@ -185,25 +187,24 @@ gsap.from(".hero-text p", 1, {
   ease: "easeIn",
   stagger: 0.5,
 });
-
-// =================== section 1 ==========================
-gsap.from(".ts-hero__section-1", 0.5, {
-  opacity: 0,
-  ease: "easeIn",
-  stagger: 0.5,
+gsap.to(".hero-bg-img ,.hero-bg", 0.5, {
+  ease: "none",
+  backgroundColor: "rgba(139, 69, 69, 1)",
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
-    //markers: true,
-    start: "top 80%",
+    markers: true,
+    start: "top 70%",
     end: "10% bottom",
     scrub: 1,
   },
 });
+
+// =================== section 1 ==========================
+
 gsap.from(".section-1-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
-
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
@@ -216,7 +217,6 @@ gsap.from(".sec1-hero-title h1", 2, {
   y: 50,
   opacity: 0,
   ease: "easeInOut",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
@@ -230,7 +230,6 @@ gsap.from("#section-1-p", 2, {
   y: -50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec1-hero-title-img",
     //markers: true,
@@ -258,7 +257,6 @@ gsap.from("#scetion-1-an p", 3, {
 gsap.from(".ts-hero__section-2", 1, {
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-hero__section-2",
     //markers: true,
@@ -271,7 +269,6 @@ gsap.from(".section-2-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
     //  markers: true,
@@ -284,7 +281,6 @@ gsap.from(".sec2-hero-title h1", 2, {
   y: 50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
     //  markers: true,
@@ -298,7 +294,6 @@ gsap.from("#section-2-p", 2, {
   y: -50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec2-hero-title-img",
     //  markers: true,
@@ -325,7 +320,6 @@ gsap.from("#scetion-2-an p", 3, {
 gsap.from(".ts-hero__section-3", 1, {
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-hero__section-3",
     //markers: true,
@@ -338,7 +332,6 @@ gsap.from(".section-3-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
     //  markers: true,
@@ -351,7 +344,6 @@ gsap.from(".sec3-hero-title h1", 2, {
   y: 50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
     //  markers: true,
@@ -365,7 +357,6 @@ gsap.from("#section-3-p", 2, {
   y: -50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec3-hero-title-img",
     //  markers: true,
@@ -392,7 +383,6 @@ gsap.from("#scetion-3-an p", 3, {
 gsap.from(".ts-hero__section-4", 1, {
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".ts-hero__section-4",
     //markers: true,
@@ -405,7 +395,6 @@ gsap.from(".section-4-img", 1, {
   scale: 3,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
     //  markers: true,
@@ -418,7 +407,6 @@ gsap.from(".sec4-hero-title h1", 2, {
   y: 50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
     //  markers: true,
@@ -432,7 +420,6 @@ gsap.from("#section-4-p", 2, {
   y: -50,
   opacity: 0,
   ease: "easeIn",
-  stagger: 0.5,
   scrollTrigger: {
     trigger: ".sec4-hero-title-img",
     //  markers: true,

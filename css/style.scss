@@ -1,1086 +1,1110 @@
 /******************  section 1 - section 4 **********************/
 
 @mixin section-hero-text-img {
-  max-width: 50vw;
-  height: 60vh;
-  margin-inline: auto;
-  margin-top: 80px;
-  @media (min-width: 1399px) and (max-width: 1850px) {
-    max-width: 55vw;
-  }
-  @media (min-width: 991px) and (max-width: 1398px) {
-    max-width: 65vw;
-    height: 50vh;
-  }
-  @media (min-width: 768px) and (max-width: 990px) {
-    max-width: 65vw;
-    height: 40vh;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
     max-width: 50vw;
-    height: auto;
-    margin-top: 0px;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    max-width: 65vw;
-    height: auto;
-    margin-top: 0px;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    max-width: 90vw;
-    height: auto;
-    margin-top: 0px;
-  }
+    height: 60vh;
+    margin-inline: auto;
+    margin-top: 80px;
+    @media (min-width: 1399px) and (max-width: 1850px) {
+        max-width: 55vw;
+    }
+    @media (min-width: 991px) and (max-width: 1398px) {
+        max-width: 65vw;
+        height: 50vh;
+    }
+    @media (min-width: 768px) and (max-width: 990px) {
+        max-width: 65vw;
+        height: 40vh;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        max-width: 50vw;
+        height: auto;
+        margin-top: 0px;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        max-width: 65vw;
+        height: auto;
+        margin-top: 0px;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        max-width: 90vw;
+        height: auto;
+        margin-top: 0px;
+    }
 }
 
 @mixin outt-part {
-  position: relative;
-  clip-path: polygon(
-    89.07% 67.05%,
-    49.57% 90.88%,
-    10.07% 67.05%,
-    10.07% 29.28%,
-    49.57% 4.45%,
-    88.93% 29.28%
-  );
-  overflow: hidden;
-  width: 750px;
-  height: 550px;
-  @media (min-width: 1300px) and (max-width: 1566px) {
-    width: 650px;
-    height: 500px;
-  }
-  @media (min-width: 989px) and (max-width: 1299px) {
-    width: 600px;
-    height: 430px;
-  }
-  @media (min-width: 768px) and (max-width: 988px) {
-    width: 550px;
-    height: 400px;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    width: 400px;
-    height: 400px;
-    margin-left: -158px;
-  }
-  @media (min-width: 100px) and (max-width: 575px) {
-    width: 300px;
-    height: 300px;
-    margin-left: -150px;
-  }
+    position: relative;
+    clip-path: polygon( 89.07% 67.05%, 49.57% 90.88%, 10.07% 67.05%, 10.07% 29.28%, 49.57% 4.45%, 88.93% 29.28%);
+    overflow: hidden;
+    width: 968.73px;
+    height: 550px;
+    @media (min-width: 1300px) and (max-width: 1566px) {
+        width: 841.8px;
+        height: 500px;
+    }
+    @media (min-width: 989px) and (max-width: 1299px) {
+        width: 694.05px;
+        height: 430px;
+    }
+    @media (min-width: 768px) and (max-width: 988px) {
+        width: 668.8px;
+        height: 400px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        width: 400px;
+        height: 400px;
+        margin-left: -158px;
+    }
+    @media (min-width: 100px) and (max-width: 575px) {
+        width: 300px;
+        height: 300px;
+        margin-left: -150px;
+    }
 }
 
 @mixin hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 650px;
-  height: 550px;
-  opacity: 0.6;
-  object-fit: fill;
-  @media (min-width: 1300px) and (max-width: 1566px) {
-    width: 600px;
-    height: 500px;
-  }
-  @media (min-width: 989px) and (max-width: 1299px) {
-    width: 600px;
-    height: 430px;
-  }
-  @media (min-width: 768px) and (max-width: 988px) {
-    width: 550px;
-    height: 400px;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    width: 400px;
-    height: 400px;
-  }
-  @media (min-width: 100px) and (max-width: 575px) {
-    width: 300px;
-    height: 300px;
-  }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 968.73px;
+    height: 550px;
+    opacity: 1;
+    object-fit: fill;
+    @media (min-width: 1300px) and (max-width: 1566px) {
+        width: 841.8px;
+        height: 500px;
+    }
+    @media (min-width: 989px) and (max-width: 1299px) {
+        width: 694.05px;
+        height: 430px;
+    }
+    @media (min-width: 768px) and (max-width: 988px) {
+        width: 668.8px;
+        height: 400px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        width: 400px;
+        height: 400px;
+    }
+    @media (min-width: 100px) and (max-width: 575px) {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @mixin section-title {
-  margin-left: -180px;
-  width: 100%;
-  z-index: 1;
-  @media (min-width: 768px) and (max-width: 1299px) {
-    margin-left: -150px;
-  }
-  @media (min-width: 100px) and (max-width: 767px) {
-    margin-top: -120px;
-    margin-left: 0px;
-  }
+    margin-left: -180px;
+    width: 100%;
+    z-index: 1;
+    @media (min-width: 768px) and (max-width: 1299px) {
+        margin-left: -150px;
+    }
+    @media (min-width: 100px) and (max-width: 767px) {
+        margin-top: -120px;
+        margin-left: 0px;
+    }
 }
 
 @mixin hero-h1 {
-  word-break: break-all;
-  font-size: 3.5vw;
-  color: #fff;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 6vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 6.8vw;
-    font-weight: bold;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 8.5vw;
-  }
+    word-break: break-all;
+    font-size: 3.5vw;
+    color: #fff;
+    @media (min-width: 768px) and (max-width: 989px) {
+        font-size: 6vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 6.8vw;
+        font-weight: bold;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 8vw;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 8.5vw;
+    }
 }
 
 @mixin section-p {
-  word-break: break-all;
-  font-size: 1.8vw;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 2.6vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 3vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 4.5vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 5vw;
-  }
+    word-break: break-all;
+    font-size: 1.8vw;
+    @media (min-width: 768px) and (max-width: 989px) {
+        font-size: 2.6vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 3vw;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 4.5vw;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 5vw;
+    }
 }
 
 @mixin an-p {
-  word-break: break-all;
-  font-size: 1.8vw;
-  text-align: center;
-  margin: 10px 0;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 2.4vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2.6vw;
-    font-weight: 500;
-    line-height: 24px;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 3.5vw;
-    font-weight: 500;
-    line-height: 20px;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 5vw;
-    font-weight: 500;
-    line-height: 20px;
-  }
+    word-break: break-all;
+    font-size: 1.8vw;
+    text-align: center;
+    margin: 10px 0;
+    @media (min-width: 768px) and (max-width: 989px) {
+        font-size: 2.4vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 2.6vw;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 3.5vw;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 4.5vw;
+        font-weight: 500;
+        line-height: 20px;
+    }
 }
 
 @mixin hero-btn {
-  padding: 10px 30px;
-  border-radius: 25px;
-  font-size: 1vw;
-  cursor: pointer !important;
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.5vw;
-    width: 80%;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-    width: 80%;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-    width: 80%;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.8vw;
-    width: 80%;
-  }
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 1vw;
+    cursor: pointer !important;
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 1.5vw;
+        width: 80%;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 2vw;
+        width: 80%;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 2.8vw;
+        width: 80%;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 3.8vw;
+        width: 80%;
+    }
 }
 
 @mixin hero-hero {
-  width: 100%;
-  height: auto !important;
-  z-index: 1000;
-  overflow: visible;
-  padding-bottom: 50px;
+    width: 100%;
+    height: auto !important;
+    z-index: 1000;
+    overflow: visible;
+    padding-bottom: 50px;
 }
 
+
 /******************  section 1 - section 4 end  **********************/
+
 
 /***************** 企業責任-1 -3  ***********************************/
 
 @mixin so-logo {
-  width: 100px;
-  height: 100px;
-  @media (min-width: 200px) and (max-width: 989px) {
-    width: 70px;
-    height: 70px;
-  }
+    width: 100px;
+    height: 100px;
+    @media (min-width: 200px) and (max-width: 989px) {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 @mixin so-h1 {
-  color: #fff;
-  font-size: 2.2vw;
-  padding: 15px 0;
-  font-weight: 700;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 3.5vw;
-    padding: 0;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 4vw;
-    padding: 0;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 5vw;
-    padding: 0;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 6vw;
-    padding: 0;
-  }
+    color: #fff;
+    font-size: 2.2vw;
+    padding: 15px 0;
+    font-weight: 700;
+    @media (min-width: 768px) and (max-width: 989px) {
+        font-size: 3.5vw;
+        padding: 0;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 4vw;
+        padding: 0;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 5vw;
+        padding: 0;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 6vw;
+        padding: 0;
+    }
 }
 
 @mixin so-p {
-  color: #fff;
-  word-break: break-all;
-  font-size: 1vw;
-  line-height: 30px;
-  text-align: justify;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 1.8vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.8vw;
-  }
+    color: #fff;
+    word-break: break-all;
+    font-size: 1vw;
+    line-height: 30px;
+    text-align: justify;
+    @media (min-width: 768px) and (max-width: 989px) {
+        font-size: 1.8vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 2vw;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 2.8vw;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 3.5vw;
+    }
 }
 
 @mixin soso-flex-img-h1 {
-  @media (min-width: 100px) and (max-width: 991px) {
-    display: flex;
-    align-items: end;
-  }
+    @media (min-width: 100px) and (max-width: 991px) {
+        display: flex;
+        align-items: end;
+    }
 }
 
 @mixin footer-h4 {
-  font-size: 1.5vw;
-  font-weight: 700;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.8vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 3.3vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 4.2vw;
-  }
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 1.8vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 2.8vw;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 3.3vw;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 4.2vw;
+    }
 }
 
 @mixin footer-text {
-  font-size: 1vw;
-  text-decoration: none;
-  color: rgb(63, 62, 62);
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.5vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.8vw;
-  }
+    font-size: 1vw;
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+    @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 1.5vw;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 2vw;
+    }
+    @media (min-width: 400px) and (max-width: 575px) {
+        font-size: 2.8vw;
+    }
+    @media (min-width: 100px) and (max-width: 399px) {
+        font-size: 3.8vw;
+    }
 }
+
 
 /***************** 企業責任-1 -3 end ***********************************/
 
 :root {
-  --background-color-0: rgba(38, 38, 38, 1);
-  --background-color-1: rgba(139, 69, 69, 1);
-  --background-color-2: rgba(209, 154, 0, 1);
-  --background-color-3: rgba(44, 86, 104, 1);
-  --background-color-4: rgba(59, 107, 101, 1);
-  --background-color-5: rgba(38, 38, 38, 1);
-  --text-color-0: rgba(255, 255, 255, 0.6);
-  --text-color-1: rgba(219, 178, 178, 1);
-  --text-color-2: rgba(255, 244, 201, 1);
-  --text-color-3: rgba(189, 217, 228, 1);
-  --text-color-4: rgba(119, 208, 205, 1);
-  --title-fontz-1-4: 80px;
-  --Content-fontz-1-4: 48px;
-  --soso-h1: 48px;
-  --soso-p: 16px;
-  --footer: rgb(248, 238, 238);
+    --background-color-0: rgba(38, 38, 38, 1);
+    --background-color-1: rgba(139, 69, 69, 1);
+    --background-color-2: rgba(209, 154, 0, 1);
+    --background-color-3: rgba(44, 86, 104, 1);
+    --background-color-4: rgba(59, 107, 101, 1);
+    --background-color-5: rgba(38, 38, 38, 1);
+    --text-color-0: rgba(255, 255, 255, 0.6);
+    --text-color-1: rgba(219, 178, 178, 1);
+    --text-color-2: rgba(255, 244, 201, 1);
+    --text-color-3: rgba(189, 217, 228, 1);
+    --text-color-4: rgba(119, 208, 205, 1);
+    --hero-h1: rgba(249, 201, 75, 1);
+    --title-fontz-1-4: 80px;
+    --Content-fontz-1-4: 48px;
+    --soso-h1: 48px;
+    --soso-p: 16px;
+    --footer: rgb(248, 238, 238);
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
 html {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-  width: 100vw;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 .ts-hero__sections {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 
 /************ mobile menu **************/
 
 .fullpage-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 9999;
-  display: none !important;
-  @media (min-width: 100px) and (max-width: 990px) {
-    display: block !important;
-  }
-  .fullpage-menu-inner {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 100px 60px;
-    .menu-bg {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      span {
-        height: 33.334%;
-        width: 100%;
-        background: var(--background-color-0);
-        display: block;
-      }
-      .mb-ts-nav {
-        width: 100%;
-        position: absolute;
-        top: 20vh;
-        left: 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        display: none;
-        .mb-ts-menu {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
-          list-style: none;
-          gap: 15px;
-          padding: 0;
-          img {
-            width: 80px;
-            height: 40px;
-            opacity: 0;
-          }
-          a {
-            text-decoration: none;
-            font-size: 30px;
-            color: #fff;
-            font-weight: 300;
-            overflow: hidden;
-            transform: scale(1);
-            transition: 0.3s ease;
-            @media (min-width: 500px) and (max-width: 989px) {
-              font-size: 26px;
-            }
-            @media (min-width: 100px) and (max-width: 499px) {
-              font-size: 20px;
-            }
-          }
-          .active {
-            transform: scale(1.2);
-            font-weight: 500;
-          }
-          .mb-link {
-            display: flex;
-            align-items: center;
-            &:last-child {
-              margin-top: 20px;
-              margin-left: 50px;
-              a {
-                border: 1px solid white;
-                padding: 20px;
-                border-radius: 50%;
-                font-size: 16px;
-                margin-left: 20px;
-                height: 19px;
-                width: 19px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: #fff;
-                color: black;
-                &:last-child {
-                  color: #fff;
-                  background-color: transparent;
-                }
-              }
-            }
-          }
-        }
-      }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    display: none !important;
+    @media (min-width: 100px) and (max-width: 990px) {
+        display: block !important;
     }
-  }
+    .fullpage-menu-inner {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        padding: 100px 60px;
+        .menu-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            span {
+                height: 33.334%;
+                width: 100%;
+                background: var(--background-color-0);
+                display: block;
+            }
+            .mb-ts-nav {
+                width: 100%;
+                position: absolute;
+                top: 20vh;
+                left: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                display: none;
+                .mb-ts-menu {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    list-style: none;
+                    gap: 15px;
+                    padding: 0;
+                    img {
+                        width: 80px;
+                        height: 40px;
+                        opacity: 0;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-size: 30px;
+                        color: #fff;
+                        font-weight: 300;
+                        overflow: hidden;
+                        transform: scale(1);
+                        transition: 0.3s ease;
+                        @media (min-width: 500px) and (max-width: 989px) {
+                            font-size: 26px;
+                        }
+                        @media (min-width: 100px) and (max-width: 499px) {
+                            font-size: 20px;
+                        }
+                    }
+                    .active {
+                        transform: scale(1.2);
+                        font-weight: 500;
+                    }
+                    .mb-link {
+                        display: flex;
+                        align-items: center;
+                        &:last-child {
+                            margin-top: 20px;
+                            margin-left: 50px;
+                            a {
+                                border: 1px solid white;
+                                padding: 20px;
+                                border-radius: 50%;
+                                font-size: 16px;
+                                margin-left: 20px;
+                                height: 19px;
+                                width: 19px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #fff;
+                                color: black;
+                                &:last-child {
+                                    color: #fff;
+                                    background-color: transparent;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
 
 /********** DesKtop menu *********/
 
 .ts {
-  &-nav {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    z-index: 10000;
-    @media (min-width: 100px) and (max-width: 991px) {
-      justify-content: flex-end;
+    &-nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 10000;
+        @media (min-width: 100px) and (max-width: 991px) {
+            justify-content: flex-end;
+        }
+        .menu-toggle {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            display: none !important;
+            @media (min-width: 100px) and (max-width: 991px) {
+                display: block !important;
+            }
+        }
+        .hamburger path {
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+        }
     }
-    .menu-toggle {
-      background: transparent;
-      border: none;
-      cursor: pointer;
-      display: none !important;
-      @media (min-width: 100px) and (max-width: 991px) {
-        display: block !important;
-      }
-    }
-    .hamburger path {
-      fill: none;
-      stroke: #fff;
-      stroke-linecap: round;
-    }
-  }
-  &-menu {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    list-style: none;
-    gap: 15px;
-    padding: 30px 0 0 0;
-    @media (min-width: 100px) and (max-width: 991px) {
-      display: none !important;
-    }
-    li {
-      display: flex;
-      align-items: center;
-      img {
-        width: 80px;
-        height: 40px;
-        opacity: 0;
-        transition: 0.3s ease;
-        /*    &:hover {
+    &-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        list-style: none;
+        gap: 15px;
+        padding: 30px 0 0 0;
+        @media (min-width: 100px) and (max-width: 991px) {
+            display: none !important;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            img {
+                width: 80px;
+                height: 40px;
+                opacity: 0;
+                transition: 0.3s ease;
+                /*    &:hover {
                   transform: scale(1.5);
               }*/
-        .active {
-          opacity: 1;
+                .active {
+                    opacity: 1;
+                }
+            }
+            a {
+                text-decoration: none;
+                font-size: 1.2vw;
+                color: #fff;
+                font-weight: 300;
+                transform: scale(1);
+                transition: 0.3s ease;
+                @media (min-width: 600px) and (max-width: 1299px) {
+                    font-size: 16px;
+                }
+            }
+            .active {
+                transform: scale(1.2);
+                font-weight: 500;
+            }
+            &:last-child {
+                margin-top: 20px;
+                margin-left: 50px;
+                a {
+                    border: 1px solid white;
+                    padding: 20px;
+                    border-radius: 50%;
+                    font-size: 16px;
+                    margin-left: 20px;
+                    height: 19px;
+                    width: 19px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fff;
+                    color: black;
+                    &:last-child {
+                        color: #fff;
+                        background-color: transparent;
+                    }
+                }
+            }
         }
-      }
-      a {
-        text-decoration: none;
-        font-size: 1.2vw;
-        color: #fff;
-        font-weight: 300;
-        transform: scale(1);
-        transition: 0.3s ease;
-        @media (min-width: 600px) and (max-width: 1299px) {
-          font-size: 16px;
-        }
-      }
-      .active {
-        transform: scale(1.2);
-        font-weight: 500;
-      }
-      &:last-child {
-        margin-top: 20px;
-        margin-left: 50px;
-        a {
-          border: 1px solid white;
-          padding: 20px;
-          border-radius: 50%;
-          font-size: 16px;
-          margin-left: 20px;
-          height: 19px;
-          width: 19px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #fff;
-          color: black;
-          &:last-child {
-            color: #fff;
-            background-color: transparent;
-          }
-        }
-      }
     }
-  }
 }
+
 
 /************************** 關於黃蜂香港 section-0  ***********************************************/
 
 .ts-hero__section-0 {
-  width: 100%;
-  height: auto !important;
-  max-height: 120vh;
-  position: relative;
-  .ts-text-con {
-    .hero-bg-img {
-      width: 100%;
-      height: 100vh;
-      opacity: 0.5;
-      object-fit: cover;
-    }
-    .hero-bg {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: var(--background-color-0);
-      left: 0;
-      top: 0;
-      opacity: 0.68;
-    }
-    .hero-text {
-      padding: 2rem;
-      z-index: 100;
-      position: absolute;
-      width: 100%;
-      height: 100vh;
-      left: 0;
-      top: 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      @media (min-width: 200px) and (max-width: 999px) {
-        gap: 20px;
-      }
-      .hero-logo {
-        width: 8%;
-        @media (min-width: 600px) and (max-width: 899px) {
-          width: 18%;
+    width: 100%;
+    height: 100vh !important;
+    max-height: 120vh;
+    position: relative;
+    .ts-text-con {
+        .hero-bg-img {
+            width: 100%;
+            height: 100vh;
+            opacity: 0.5;
+            object-fit: cover;
         }
-        @media (min-width: 200px) and (max-width: 599px) {
-          width: 20%;
+        .hero-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: var(--background-color-0);
+            left: 0;
+            top: 0;
+            opacity: 0.68;
         }
-      }
-      h1 {
-        word-break: break-all;
-        @include hero-h1;
-        color: var(--background-color-2);
-        /*   @media (min-width: 600px) and (max-width: 899px) {
+        .hero-text {
+            padding: 2rem;
+            z-index: 100;
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            @media (min-width: 200px) and (max-width: 999px) {
+                gap: 20px;
+            }
+            .hero-logo {
+                width: 8%;
+                @media (min-width: 600px) and (max-width: 899px) {
+                    width: 18%;
+                }
+                @media (min-width: 200px) and (max-width: 599px) {
+                    width: 20%;
+                }
+            }
+            h1 {
+                word-break: break-all;
+                @include hero-h1;
+                color: var(--hero-h1);
+                margin-top: 23px;
+                /*   @media (min-width: 600px) and (max-width: 899px) {
           font-size: 50px;
         }
         @media (min-width: 200px) and (max-width: 599px) {
           font-size: 40px;
         } */
-      }
-      p {
-        @include an-p;
-        color: var(--text-color-0);
-      }
+            }
+            p {
+                @include an-p;
+                color: var(--text-color-0);
+            }
+        }
     }
-  }
 }
+
 
 /************************** 黃蜂租車  section-1  ***********************************************/
 
 .ts-hero__section-1 {
-  width: 100%;
-  height: auto !important;
-  padding: 2rem;
-  position: relative;
-  &-hero {
-    @include hero-hero;
-    .sec1-hero-title-img {
-      @include section-hero-text-img;
-      .outt {
-        @include outt-part;
-        img {
-          mix-blend-mode: overlay !important;
-          object-fit: contain;
-          @include hero-img;
+    width: 100%;
+    height: auto !important;
+    padding: 2rem;
+    position: relative;
+    &-hero {
+        @include hero-hero;
+        .sec1-hero-title-img {
+            @include section-hero-text-img;
+            .outt {
+                @include outt-part;
+                img {
+                    mix-blend-mode: overlay !important;
+                    object-fit: contain;
+                    @include hero-img;
+                }
+            }
+            .sec1-hero-title {
+                @include section-title;
+                h1 {
+                    @include hero-h1;
+                }
+                p {
+                    @include section-p;
+                }
+            }
         }
-      }
-      .sec1-hero-title {
-        @include section-title;
-        h1 {
-          @include hero-h1;
-        }
+    }
+    .text-an {
         p {
-          @include section-p;
+            @include an-p;
+            color: var(--text-color-1);
         }
-      }
     }
-  }
-  .text-an {
-    p {
-      @include an-p;
-      color: var(--text-color-1);
+    .btn {
+        @include hero-btn;
+        background: var(--text-color-1);
+        color: var(--background-color-1);
+        &:hover {
+            background: transparent;
+            border: 0.1rem solid var(--text-color-1);
+        }
     }
-  }
-  .btn {
-    @include hero-btn;
-    background: var(--text-color-1);
-    color: var(--background-color-1);
-  }
 }
+
 
 /**************************WASP HYBRID section-2  ***********************************************/
 
 .ts-hero__section-2 {
-  width: 100%;
-  height: auto !important;
-  padding: 2rem;
-  &-hero {
-    @include hero-hero;
-    .sec2-hero-title-img {
-      @include section-hero-text-img;
-      .outt {
-        @include outt-part;
-        img {
-          object-fit: contain;
-          mix-blend-mode: multiply !important;
-          @include hero-img;
+    width: 100%;
+    height: auto !important;
+    padding: 2rem;
+    &-hero {
+        @include hero-hero;
+        .sec2-hero-title-img {
+            @include section-hero-text-img;
+            .outt {
+                @include outt-part;
+                img {
+                    object-fit: contain;
+                    mix-blend-mode: multiply !important;
+                    @include hero-img;
+                }
+            }
+            .sec2-hero-title {
+                @include section-title;
+                h1 {
+                    @include hero-h1;
+                }
+                p {
+                    @include section-p;
+                    color: #fff;
+                }
+            }
         }
-      }
-      .sec2-hero-title {
-        @include section-title;
-        h1 {
-          @include hero-h1;
-        }
+    }
+    .text-an {
         p {
-          @include section-p;
-          color: #fff;
+            @include an-p;
+            color: var(--text-color-2);
         }
-      }
     }
-  }
-  .text-an {
-    p {
-      @include an-p;
-      color: #fff;
+    .btn {
+        @include hero-btn;
+        background: var(--text-color-2);
+        color: var(--background-color-2);
+        &:hover {
+            background: transparent;
+            border: 0.1rem solid var(--text-color-2);
+        }
     }
-  }
-  .btn {
-    @include hero-btn;
-    background: var(--text-color-2);
-    color: var(--background-color-2);
-  }
 }
+
 
 /*********************** AI Parking Bees  section-3 **************************************/
 
 .ts-hero__section-3 {
-  width: 100%;
-  height: auto !important;
-  padding: 2rem;
-  &-hero {
-    @include hero-hero;
-    .sec3-hero-title-img {
-      @include section-hero-text-img;
-      .outt {
-        @include outt-part;
-        img {
-          object-fit: contain;
-          mix-blend-mode: overlay;
-          @include hero-img;
+    width: 100%;
+    height: auto !important;
+    padding: 2rem;
+    &-hero {
+        @include hero-hero;
+        .sec3-hero-title-img {
+            @include section-hero-text-img;
+            .outt {
+                @include outt-part;
+                img {
+                    object-fit: contain;
+                    mix-blend-mode: overlay;
+                    @include hero-img;
+                }
+            }
+            .sec3-hero-title {
+                @include section-title;
+                h1 {
+                    @include hero-h1;
+                }
+                p {
+                    @include section-p;
+                }
+            }
         }
-      }
-      .sec3-hero-title {
-        @include section-title;
-        h1 {
-          @include hero-h1;
-        }
+    }
+    .text-an {
         p {
-          @include section-p;
+            @include an-p;
+            color: var(--text-color-3);
         }
-      }
     }
-  }
-  .text-an {
-    p {
-      @include an-p;
-      color: #fff;
+    .btn {
+        @include hero-btn;
+        background: var(--text-color-3);
+        color: var(--background-color-3);
+        &:hover {
+            background: transparent;
+            border: 0.1rem solid var(--text-color-3);
+        }
     }
-  }
-  .btn {
-    @include hero-btn;
-    background: var(--text-color-3);
-    color: var(--background-color-3);
-  }
 }
+
 
 /*********************** Mr. Wrapper section-4  **************************************/
 
 .ts-hero__section-4 {
-  width: 100%;
-  height: auto !important;
-  padding: 2rem;
-  &-hero {
-    @include hero-hero;
-    .sec4-hero-title-img {
-      @include section-hero-text-img;
-      .outt {
-        @include outt-part;
-        img {
-          object-fit: contain;
-          mix-blend-mode: overlay;
-          @include hero-img;
+    width: 100%;
+    height: auto !important;
+    padding: 2rem;
+    &-hero {
+        @include hero-hero;
+        .sec4-hero-title-img {
+            @include section-hero-text-img;
+            .outt {
+                @include outt-part;
+                img {
+                    object-fit: contain;
+                    mix-blend-mode: overlay;
+                    @include hero-img;
+                }
+            }
+            .sec4-hero-title {
+                @include section-title;
+                h1 {
+                    @include hero-h1;
+                }
+                p {
+                    @include section-p;
+                }
+            }
         }
-      }
-      .sec4-hero-title {
-        @include section-title;
-        h1 {
-          @include hero-h1;
-        }
+    }
+    .text-an {
         p {
-          @include section-p;
+            @include an-p;
+            color: var(--text-color-4);
         }
-      }
     }
-  }
-  .text-an {
-    p {
-      @include an-p;
-      color: var(--text-color-4);
+    .btn {
+        @include hero-btn;
+        background: var(--text-color-4);
+        color: var(--background-color-4);
+        &:hover {
+            background: transparent;
+            border: 0.1rem solid var(--text-color-4);
+        }
     }
-  }
-  .btn {
-    @include hero-btn;
-    background: var(--text-color-4);
-    color: var(--background-color-4);
-  }
 }
+
 
 /*********************** 企業責任-1 section-5  **************************************/
 
 .ts-hero__section-5 {
-  width: 100%;
-  height: auto !important;
-  padding: 1rem;
-  .container {
-    min-height: 100vh;
-    padding-top: 120px;
-    @media (min-width: 576px) and (max-width: 991px) {
-      padding-top: 0 !important;
-    }
-    @media (min-width: 100px) and (max-width: 575px) {
-      padding-right: 0 !important;
-      padding-left: 0 !important;
-      padding-top: 0 !important;
-      margin: 0 !important;
-    }
-    .section-5-left {
-      width: 100%;
-      height: 45vh;
-      margin-top: 87px;
-      @media (min-width: 100px) and (max-width: 91px) {
-        margin-top: 0 !important;
-      }
-      img {
-        width: 70%;
-        height: 70%;
-        border-radius: 36px;
-        float: right;
-        @media (min-width: 1399px) and (max-width: 1850px) {
-          width: 60%;
-          height: 60%;
-        }
-        @media (min-width: 992px) and (max-width: 1398px) {
-          width: 55%;
-          height: 55%;
-        }
+    width: 100%;
+    height: auto !important;
+    padding: 1rem;
+    .container {
+        min-height: 100vh;
+        padding-top: 120px;
         @media (min-width: 576px) and (max-width: 991px) {
-          width: 100%;
-          height: auto;
-          margin-bottom: 30px;
+            padding-top: 0 !important;
         }
         @media (min-width: 100px) and (max-width: 575px) {
-          width: 100%;
-          height: 80%;
-          overflow: visible;
-          margin-bottom: 30px;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            padding-top: 0 !important;
+            margin: 0 !important;
         }
-      }
-    }
-    .section-5-right {
-      width: 100%;
-      height: auto;
-      padding: 0 150px;
-      @media (min-width: 992px) and (max-width: 1398px) {
-        padding: 0 100px;
-      }
-      @media (min-width: 100px) and (max-width: 991px) {
-        padding: 0px;
-      }
-      .flex-img-h1 {
-        @include soso-flex-img-h1;
-      }
-      .none-mb {
-        @media (min-width: 100px) and (max-width: 991px) {
-          display: none;
+        .section-5-left {
+            width: 100%;
+            height: 45vh;
+            margin-top: 87px;
+            @media (min-width: 100px) and (max-width: 91px) {
+                margin-top: 0 !important;
+            }
+            img {
+                width: 70%;
+                height: 70%;
+                border-radius: 36px;
+                float: right;
+                @media (min-width: 1399px) and (max-width: 1850px) {
+                    width: 60%;
+                    height: 60%;
+                }
+                @media (min-width: 992px) and (max-width: 1398px) {
+                    width: 55%;
+                    height: 55%;
+                }
+                @media (min-width: 576px) and (max-width: 991px) {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 30px;
+                }
+                @media (min-width: 100px) and (max-width: 575px) {
+                    width: 100%;
+                    height: 80%;
+                    overflow: visible;
+                    margin-bottom: 30px;
+                }
+            }
         }
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
-      }
-      p {
-        @include so-p;
-      }
+        .section-5-right {
+            width: 100%;
+            height: auto;
+            padding: 0 150px;
+            @media (min-width: 992px) and (max-width: 1398px) {
+                padding: 0 100px;
+            }
+            @media (min-width: 100px) and (max-width: 991px) {
+                padding: 0px;
+            }
+            .flex-img-h1 {
+                @include soso-flex-img-h1;
+            }
+            .none-mb {
+                @media (min-width: 100px) and (max-width: 991px) {
+                    display: none;
+                }
+            }
+            .so-logo {
+                @include so-logo;
+            }
+            h1 {
+                @include so-h1;
+            }
+            p {
+                @include so-p;
+            }
+        }
     }
-  }
 }
+
 
 /*********************** 企業責任-2 section-5  **************************************/
 
 .ts-hero__section-6-hero {
-  width: 100%;
-  min-height: 100vh;
-  .container {
+    width: 100%;
     min-height: 100vh;
-    padding-top: 150px;
-    @media (min-width: 576px) and (max-width: 991px) {
-      padding-top: 0 !important;
-    }
-    @media (min-width: 100px) and (max-width: 575px) {
-      padding-right: 0 !important;
-      padding-left: 0 !important;
-      padding-top: 0 !important;
-      margin: 0 !important;
-    }
-    .row {
-      @media (min-width: 200px) and (max-width: 991px) {
-        flex-direction: column-reverse !important;
-      }
-    }
-    .section-6-left {
-      width: 100%;
-      height: auto;
-      padding: 0 120px;
-      margin-left: 50px;
-      @media (min-width: 992px) and (max-width: 1300px) {
-        margin-left: 90px;
-      }
-      @media (min-width: 100px) and (max-width: 991px) {
-        padding: 0px;
-        margin-left: 0px;
-      }
-      .flex-img-h1 {
-        @include soso-flex-img-h1;
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
-      }
-      p {
-        @include so-p;
-      }
-    }
-    .section-6-right {
-      width: 100%;
-      height: 45vh;
-      margin-top: 87px;
-      @media (min-width: 992px) and (max-width: 1300px) {
-        margin-left: 80px;
-      }
-      @media (min-width: 100px) and (max-width: 991px) {
-        margin-top: 0;
-        height: 100%;
-      }
-      img {
-        width: 100%;
-        height: 84%;
-        border-radius: 36px;
-        @media (min-width: 1301px) and (max-width: 1850px) {
-          width: 75%;
-          height: 75%;
-          margin-left: 63px;
-        }
-        @media (min-width: 992px) and (max-width: 1300px) {
-          width: 70%;
-          height: 70%;
-        }
+    .container {
+        min-height: 100vh;
+        padding-top: 150px;
         @media (min-width: 576px) and (max-width: 991px) {
-          width: 100%;
-          height: 100%;
-          margin-bottom: 30px;
+            padding-top: 0 !important;
         }
         @media (min-width: 100px) and (max-width: 575px) {
-          width: 100%;
-          height: 80%;
-          overflow: visible;
-          margin-bottom: 30px;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            padding-top: 0 !important;
+            margin: 0 !important;
         }
-      }
+        .row {
+            @media (min-width: 200px) and (max-width: 991px) {
+                flex-direction: column-reverse !important;
+            }
+        }
+        .section-6-left {
+            width: 100%;
+            height: auto;
+            padding: 0 120px;
+            margin-left: 50px;
+            @media (min-width: 992px) and (max-width: 1300px) {
+                margin-left: 90px;
+            }
+            @media (min-width: 100px) and (max-width: 991px) {
+                padding: 0px;
+                margin-left: 0px;
+            }
+            .flex-img-h1 {
+                @include soso-flex-img-h1;
+            }
+            .so-logo {
+                @include so-logo;
+            }
+            h1 {
+                @include so-h1;
+            }
+            p {
+                @include so-p;
+            }
+        }
+        .section-6-right {
+            width: 100%;
+            height: 45vh;
+            margin-top: 87px;
+            @media (min-width: 992px) and (max-width: 1300px) {
+                margin-left: 80px;
+            }
+            @media (min-width: 100px) and (max-width: 991px) {
+                margin-top: 0;
+                height: 100%;
+            }
+            img {
+                width: 100%;
+                height: 84%;
+                border-radius: 36px;
+                @media (min-width: 1301px) and (max-width: 1850px) {
+                    width: 75%;
+                    height: 75%;
+                    margin-left: 63px;
+                }
+                @media (min-width: 992px) and (max-width: 1300px) {
+                    width: 70%;
+                    height: 70%;
+                }
+                @media (min-width: 576px) and (max-width: 991px) {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 30px;
+                }
+                @media (min-width: 100px) and (max-width: 575px) {
+                    width: 100%;
+                    height: 80%;
+                    overflow: visible;
+                    margin-bottom: 30px;
+                }
+            }
+        }
     }
-  }
 }
+
 
 /*********************** 企業責任-3 section-5  **************************************/
 
 .ts-hero__section-7-hero {
-  width: 100%;
-  height: auto !important;
-  .container {
-    min-height: 100vh;
-    padding-top: 150px;
-    @media (min-width: 576px) and (max-width: 991px) {
-      padding-top: 0 !important;
-    }
-    @media (min-width: 100px) and (max-width: 575px) {
-      padding-right: 0 !important;
-      padding-left: 0 !important;
-      padding-top: 0 !important;
-      margin: 0 !important;
-    }
-    .section-7-left {
-      width: 100%;
-      height: 45vh;
-      margin-top: 87px;
-      img {
-        width: 96%;
-        height: 80%;
-        border-radius: 36px;
-        float: right;
-        margin-top: -53px;
-        @media (min-width: 1301px) and (max-width: 1850px) {
-          width: 75%;
-          height: 75%;
-        }
-        @media (min-width: 992px) and (max-width: 1300px) {
-          width: 60%;
-          height: 60%;
-        }
+    width: 100%;
+    height: auto !important;
+    .container {
+        min-height: 100vh;
+        padding-top: 150px;
         @media (min-width: 576px) and (max-width: 991px) {
-          width: 100%;
-          height: 100%;
-          margin-bottom: 30px;
+            padding-top: 0 !important;
         }
         @media (min-width: 100px) and (max-width: 575px) {
-          width: 100%;
-          height: 100%;
-          overflow: visible;
-          margin-bottom: 30px;
-          margin-top: 0px;
+            padding-right: 0 !important;
+            padding-left: 0 !important;
+            padding-top: 0 !important;
+            margin: 0 !important;
         }
-      }
+        .section-7-left {
+            width: 100%;
+            height: 45vh;
+            margin-top: 87px;
+            img {
+                width: 96%;
+                height: 80%;
+                border-radius: 36px;
+                float: right;
+                margin-top: -53px;
+                @media (min-width: 1301px) and (max-width: 1850px) {
+                    width: 75%;
+                    height: 75%;
+                }
+                @media (min-width: 992px) and (max-width: 1300px) {
+                    width: 60%;
+                    height: 60%;
+                }
+                @media (min-width: 576px) and (max-width: 991px) {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 30px;
+                }
+                @media (min-width: 100px) and (max-width: 575px) {
+                    width: 100%;
+                    height: 100%;
+                    overflow: visible;
+                    margin-bottom: 30px;
+                    margin-top: 0px;
+                }
+            }
+        }
+        .section-7-right {
+            width: 100%;
+            height: auto;
+            padding: 0 100px;
+            @media (min-width: 992px) and (max-width: 1398px) {
+                padding: 0 80px;
+            }
+            @media (min-width: 100px) and (max-width: 991px) {
+                padding: 0px;
+                height: 100%;
+            }
+            .flex-img-h1 {
+                @include soso-flex-img-h1;
+            }
+            .so-logo {
+                @include so-logo;
+            }
+            h1 {
+                @include so-h1;
+            }
+            p {
+                @include so-p;
+            }
+        }
     }
-    .section-7-right {
-      width: 100%;
-      height: auto;
-      padding: 0 100px;
-      @media (min-width: 992px) and (max-width: 1398px) {
-        padding: 0 80px;
-      }
-      @media (min-width: 100px) and (max-width: 991px) {
-        padding: 0px;
-        height: 100%;
-      }
-      .flex-img-h1 {
-        @include soso-flex-img-h1;
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
-      }
-      p {
-        @include so-p;
-      }
-    }
-  }
 }
 
 footer {
-  background-color: var(--footer);
-  .footer {
-    border: 1px solid #fff;
-    h4 {
-      @include footer-h4;
-    }
-    ul {
-      list-style: none;
-      li {
-        margin-bottom: 10px;
-        .icon {
-          width: 23px !important;
-          box-shadow: none;
-          border: none;
-          margin-right: 14px;
+    background-color: var(--footer);
+    .footer {
+        border: 1px solid #fff;
+        h4 {
+            @include footer-h4;
         }
-        a {
-          @include footer-text;
-          &:hover {
-            color: var(--background-color-2);
-          }
+        ul {
+            list-style: none;
+            li {
+                margin-bottom: 10px;
+                .icon {
+                    width: 23px !important;
+                    box-shadow: none;
+                    border: none;
+                    margin-right: 14px;
+                }
+                a {
+                    @include footer-text;
+                    &:hover {
+                        color: var(--background-color-2);
+                    }
+                }
+                .img-4 {
+                    width: 200px !important;
+                    margin-bottom: 2rem;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-right: 50px;
+                }
+            }
         }
-        .img-4 {
-          width: 200px !important;
-          margin-bottom: 2rem;
-          padding: 10px;
-          border-radius: 5px;
-          box-shadow: 1px 2px 10px #c5c0c0;
+    }
+    .box-4 {
+        float: right;
+        @media (min-width: 566px) and (max-width: 1282px) {
+            margin: 0 !important;
+            float: none !important;
         }
-      }
+        @media (min-width: 100px) and (max-width: 565px) {
+            margin-left: -24px !important;
+            float: left !important;
+        }
     }
-  }
-  .box-4 {
-    float: right;
-    @media (min-width: 566px) and (max-width: 991px) {
-      margin: 0 !important;
-      float: none !important;
+    .box-1,
+    .box-2,
+    .box-3 {
+        @media (min-width: 100px) and (max-width: 565px) {
+            margin-left: -24px;
+        }
     }
-    @media (min-width: 100px) and (max-width: 565px) {
-      margin-left: -24px !important;
-      float: left !important;
-    }
-  }
-  .box-1,
-  .box-2,
-  .box-3 {
-    @media (min-width: 100px) and (max-width: 565px) {
-      margin-left: -24px;
-    }
-  }
 }
 
 .none {
-  display: none !important;
+    display: none !important;
 }
