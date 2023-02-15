@@ -883,20 +883,20 @@ html {
       }
       .flex-img-h1 {
         @include soso-flex-img-h1;
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
-        .none-mb {
-          @media (min-width: 100px) and (max-width: 991px) {
-            display: none;
-          }
+        .so-logo {
+          @include so-logo;
         }
-        span {
-          @media (min-width: 100px) and (max-width: 991px) {
-            margin-left: -5px;
+        h1 {
+          @include so-h1;
+          .none-mb {
+            @media (min-width: 100px) and (max-width: 991px) {
+              display: none;
+            }
+          }
+          span {
+            @media (min-width: 100px) and (max-width: 991px) {
+              margin-left: -5px;
+            }
           }
         }
       }
@@ -943,12 +943,12 @@ html {
       }
       .flex-img-h1 {
         @include soso-flex-img-h1;
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
+        .so-logo {
+          @include so-logo;
+        }
+        h1 {
+          @include so-h1;
+        }
       }
       p {
         @include so-p;
@@ -1057,12 +1057,12 @@ html {
       }
       .flex-img-h1 {
         @include soso-flex-img-h1;
-      }
-      .so-logo {
-        @include so-logo;
-      }
-      h1 {
-        @include so-h1;
+        .so-logo {
+          @include so-logo;
+        }
+        h1 {
+          @include so-h1;
+        }
       }
       p {
         @include so-p;

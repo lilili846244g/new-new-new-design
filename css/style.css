@@ -1785,19 +1785,19 @@ html {
   }
 }
 
-.ts-hero__section-5 .container .section-5-right .so-logo {
+.ts-hero__section-5 .container .section-5-right .flex-img-h1 .so-logo {
   width: 100px;
   height: 100px;
 }
 
 @media (min-width: 200px) and (max-width: 989px) {
-  .ts-hero__section-5 .container .section-5-right .so-logo {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 .so-logo {
     width: 70px;
     height: 70px;
   }
 }
 
-.ts-hero__section-5 .container .section-5-right h1 {
+.ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 {
   color: #fff;
   font-size: 2.2vw;
   padding: 15px 0;
@@ -1805,41 +1805,41 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  .ts-hero__section-5 .container .section-5-right h1 {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 {
     font-size: 3.5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .ts-hero__section-5 .container .section-5-right h1 {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 {
     font-size: 4vw;
     padding: 0;
   }
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
-  .ts-hero__section-5 .container .section-5-right h1 {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 {
     font-size: 5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-5 .container .section-5-right h1 {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 {
     font-size: 6vw;
     padding: 0;
   }
 }
 
 @media (min-width: 100px) and (max-width: 991px) {
-  .ts-hero__section-5 .container .section-5-right h1 .none-mb {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 .none-mb {
     display: none;
   }
 }
 
 @media (min-width: 100px) and (max-width: 991px) {
-  .ts-hero__section-5 .container .section-5-right h1 span {
+  .ts-hero__section-5 .container .section-5-right .flex-img-h1 h1 span {
     margin-left: -5px;
   }
 }
@@ -1942,19 +1942,19 @@ html {
   }
 }
 
-.ts-hero__section-6-hero .container .section-6-left .so-logo {
+.ts-hero__section-6-hero .container .section-6-left .flex-img-h1 .so-logo {
   width: 100px;
   height: 100px;
 }
 
 @media (min-width: 200px) and (max-width: 989px) {
-  .ts-hero__section-6-hero .container .section-6-left .so-logo {
+  .ts-hero__section-6-hero .container .section-6-left .flex-img-h1 .so-logo {
     width: 70px;
     height: 70px;
   }
 }
 
-.ts-hero__section-6-hero .container .section-6-left h1 {
+.ts-hero__section-6-hero .container .section-6-left .flex-img-h1 h1 {
   color: #fff;
   font-size: 2.2vw;
   padding: 15px 0;
@@ -1962,28 +1962,28 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  .ts-hero__section-6-hero .container .section-6-left h1 {
+  .ts-hero__section-6-hero .container .section-6-left .flex-img-h1 h1 {
     font-size: 3.5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .ts-hero__section-6-hero .container .section-6-left h1 {
+  .ts-hero__section-6-hero .container .section-6-left .flex-img-h1 h1 {
     font-size: 4vw;
     padding: 0;
   }
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
-  .ts-hero__section-6-hero .container .section-6-left h1 {
+  .ts-hero__section-6-hero .container .section-6-left .flex-img-h1 h1 {
     font-size: 5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-6-hero .container .section-6-left h1 {
+  .ts-hero__section-6-hero .container .section-6-left .flex-img-h1 h1 {
     font-size: 6vw;
     padding: 0;
   }
@@ -2181,19 +2181,19 @@ html {
   }
 }
 
-.ts-hero__section-7-hero .container .section-7-right .so-logo {
+.ts-hero__section-7-hero .container .section-7-right .flex-img-h1 .so-logo {
   width: 100px;
   height: 100px;
 }
 
 @media (min-width: 200px) and (max-width: 989px) {
-  .ts-hero__section-7-hero .container .section-7-right .so-logo {
+  .ts-hero__section-7-hero .container .section-7-right .flex-img-h1 .so-logo {
     width: 70px;
     height: 70px;
   }
 }
 
-.ts-hero__section-7-hero .container .section-7-right h1 {
+.ts-hero__section-7-hero .container .section-7-right .flex-img-h1 h1 {
   color: #fff;
   font-size: 2.2vw;
   padding: 15px 0;
@@ -2201,28 +2201,28 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 989px) {
-  .ts-hero__section-7-hero .container .section-7-right h1 {
+  .ts-hero__section-7-hero .container .section-7-right .flex-img-h1 h1 {
     font-size: 3.5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .ts-hero__section-7-hero .container .section-7-right h1 {
+  .ts-hero__section-7-hero .container .section-7-right .flex-img-h1 h1 {
     font-size: 4vw;
     padding: 0;
   }
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
-  .ts-hero__section-7-hero .container .section-7-right h1 {
+  .ts-hero__section-7-hero .container .section-7-right .flex-img-h1 h1 {
     font-size: 5vw;
     padding: 0;
   }
 }
 
 @media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-7-hero .container .section-7-right h1 {
+  .ts-hero__section-7-hero .container .section-7-right .flex-img-h1 h1 {
     font-size: 6vw;
     padding: 0;
   }
