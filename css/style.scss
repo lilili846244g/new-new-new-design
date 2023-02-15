@@ -95,6 +95,7 @@
 @mixin hero-h1 {
   word-break: break-all;
   font-size: 3.5vw;
+  font-weight: bold;
   color: #fff;
   @media (min-width: 768px) and (max-width: 989px) {
     font-size: 6vw;
@@ -660,6 +661,7 @@ html {
     &:hover {
       background: transparent;
       border: 0.1rem solid var(--text-color-1);
+      color: var(--text-color-1);
     }
   }
 }
@@ -710,6 +712,7 @@ html {
     &:hover {
       background: transparent;
       border: 0.1rem solid var(--text-color-2);
+      color: var(--text-color-2);
     }
   }
 }
@@ -759,6 +762,7 @@ html {
     &:hover {
       background: transparent;
       border: 0.1rem solid var(--text-color-3);
+      color: var(--text-color-3);
     }
   }
 }
@@ -808,6 +812,7 @@ html {
     &:hover {
       background: transparent;
       border: 0.1rem solid var(--text-color-4);
+      color: var(--text-color-4);
     }
   }
 }
@@ -1091,6 +1096,11 @@ footer {
           margin-right: 50px;
         }
       }
+    }
+  }
+  .box-2 {
+    .col-6 {
+      opacity: 0.5;
     }
   }
   .box-4 {
