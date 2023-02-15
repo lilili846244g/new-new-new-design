@@ -157,9 +157,9 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     start: "30% 90%",
     end: "bottom 98%",
     onEnter: () => gsap.to(".section-main", { backgroundColor: color }),
-    /* onLeave: () =>
+    /*onLeave: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 1)" }),
-     onLeaveBack: () =>
+    onLeaveBack: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
     //markers: true,
@@ -188,7 +188,7 @@ gsap.from(".hero-text p", 1, {
   stagger: 0.5,
 });
 
-gsap.to(".hero-bg-img", 0.5, {
+/* gsap.to(".hero-bg-img", 0.5, {
   opacity: 0,
   ease: "easeIn",
   scrollTrigger: {
@@ -198,8 +198,8 @@ gsap.to(".hero-bg-img", 0.5, {
     end: "10% bottom",
     scrub: 1,
   },
-});
-gsap.to(".hero-bg", 0.5, {
+}); */
+/* gsap.to(".hero-bg", 0.5, {
   ease: "easeIn",
   backgroundColor: "rgba(139, 69, 69, 1)",
   scrollTrigger: {
@@ -209,10 +209,20 @@ gsap.to(".hero-bg", 0.5, {
     end: "10% bottom",
     scrub: 1,
   },
-});
+}); */
 
 // =================== section 1 ==========================
-
+/* gsap.from(".ts-hero__section-1", 1, {
+  opacity: 1,
+  ease: "easeIn",
+  scrollTrigger: {
+    trigger: ".ts-hero__section-1",
+    //markers: true,
+    start: "top top",
+    end: "bottom bottom",
+    scrub: 1,
+  },
+}); */
 gsap.from(".section-1-img", 1, {
   scale: 3,
   opacity: 0,
