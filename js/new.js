@@ -187,9 +187,10 @@ gsap.from(".hero-text p", 1, {
   ease: "easeIn",
   stagger: 0.5,
 });
-gsap.to(".hero-bg-img ", 0.5, {
-  display: "none",
-  ease: "none",
+
+gsap.to(".hero-bg-img", 0.5, {
+  opacity: 0,
+  ease: "easeIn",
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
     markers: true,
@@ -199,7 +200,7 @@ gsap.to(".hero-bg-img ", 0.5, {
   },
 });
 gsap.to(".hero-bg", 0.5, {
-  ease: "none",
+  ease: "easeIn",
   backgroundColor: "rgba(139, 69, 69, 1)",
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
