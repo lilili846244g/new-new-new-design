@@ -193,7 +193,7 @@ gsap.to(".hero-bg-img", 0.5, {
   ease: "easeIn",
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
-    markers: true,
+    //markers: true,
     start: "top 70%",
     end: "10% bottom",
     scrub: 1,
@@ -204,7 +204,7 @@ gsap.to(".hero-bg", 0.5, {
   backgroundColor: "rgba(139, 69, 69, 1)",
   scrollTrigger: {
     trigger: ".ts-hero__section-1",
-    markers: true,
+    //markers: true,
     start: "top 70%",
     end: "10% bottom",
     scrub: 1,
