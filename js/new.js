@@ -218,7 +218,7 @@ gsap.from(".box", {
 }); */
 
 // =================== section 1 ==========================
-/* gsap.from(".ts-hero__section-1", 1, {
+gsap.from(".ts-hero__section-1", 0, {
   opacity: 1,
   ease: "easeIn",
   scrollTrigger: {
@@ -228,7 +228,7 @@ gsap.from(".box", {
     end: "bottom bottom",
     scrub: 1,
   },
-}); */
+});
 gsap.from(".section-1-img", 1, {
   scale: 3,
   opacity: 0,

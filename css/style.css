@@ -365,10 +365,10 @@ html {
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
-  mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(80%, black), to(rgba(0, 0, 0, 0)));
-  mask-image: linear-gradient(black 0%, black 80%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(80%, black), to(rgba(0, 0, 0, 0)));
-  -webkit-mask-image: linear-gradient(black 0%, black 80%, rgba(0, 0, 0, 0) 100%);
+  mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(25%, black), to(rgba(0, 0, 0, 0)));
+  mask-image: linear-gradient(black 0%, black 25%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(25%, black), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(black 0%, black 25%, rgba(0, 0, 0, 0) 100%);
 }
 
 .ts-hero__section-0 .ts-text-con .hero-bg {
@@ -379,10 +379,10 @@ html {
   left: 0;
   top: 0;
   opacity: 0.68;
-  mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(80%, black), to(rgba(0, 0, 0, 0)));
-  mask-image: linear-gradient(black 0%, black 80%, rgba(0, 0, 0, 0) 100%);
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(80%, black), to(rgba(0, 0, 0, 0)));
-  -webkit-mask-image: linear-gradient(black 0%, black 80%, rgba(0, 0, 0, 0) 100%);
+  mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(25%, black), to(rgba(0, 0, 0, 0)));
+  mask-image: linear-gradient(black 0%, black 25%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(25%, black), to(rgba(0, 0, 0, 0)));
+  -webkit-mask-image: linear-gradient(black 0%, black 25%, rgba(0, 0, 0, 0) 100%);
 }
 
 .ts-hero__section-0 .ts-text-con .hero-text {
