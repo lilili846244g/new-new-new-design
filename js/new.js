@@ -157,9 +157,9 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     start: "30% 90%",
     end: "bottom 98%",
     onEnter: () => gsap.to(".section-main", { backgroundColor: color }),
-    onLeave: () =>
+    /* onLeave: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 1)" }),
-    /*  onLeaveBack: () =>
+     onLeaveBack: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
     //markers: true,
