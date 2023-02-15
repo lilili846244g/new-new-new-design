@@ -2113,7 +2113,7 @@ html {
 
 @media (min-width: 100px) and (max-width: 991px) {
   .ts-hero__section-7-hero .container .section-7-left {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 }
 

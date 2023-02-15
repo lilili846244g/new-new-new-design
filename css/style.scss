@@ -1017,7 +1017,7 @@ html {
       height: 45vh;
       margin-top: 87px;
       @media (min-width: 100px) and (max-width: 991px) {
-        margin-top: 0px;
+        margin-top: 0px !important;
       }
       img {
         width: 96%;
