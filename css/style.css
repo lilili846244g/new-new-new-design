@@ -1742,7 +1742,7 @@ html {
 @media (min-width: 576px) and (max-width: 991px) {
   .ts-hero__section-5 .container .section-5-left img {
     width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 30px;
   }
 }
@@ -1750,7 +1750,7 @@ html {
 @media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-5 .container .section-5-left img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: visible;
     margin-bottom: 30px;
   }
@@ -2066,6 +2066,7 @@ html {
     width: 100%;
     height: 100%;
     margin-bottom: 30px;
+    margin-top: 19px;
   }
 }
 
@@ -2110,6 +2111,12 @@ html {
   margin-top: 87px;
 }
 
+@media (min-width: 100px) and (max-width: 991px) {
+  .ts-hero__section-7-hero .container .section-7-left {
+    margin-top: 0px;
+  }
+}
+
 .ts-hero__section-7-hero .container .section-7-left img {
   width: 96%;
   height: 80%;
@@ -2137,13 +2144,14 @@ html {
     width: 100%;
     height: 100%;
     margin-bottom: 30px;
+    margin-top: 18px;
   }
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-7-hero .container .section-7-left img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     overflow: visible;
     margin-bottom: 30px;
     margin-top: 0px;
@@ -2165,7 +2173,7 @@ html {
 @media (min-width: 100px) and (max-width: 991px) {
   .ts-hero__section-7-hero .container .section-7-right {
     padding: 0px;
-    height: 100%;
+    height: 100% !important;
   }
 }
 
