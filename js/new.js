@@ -163,7 +163,7 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     onLeaveBack: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
-    markers: true,
+    //markers: true,
   });
 });
 
