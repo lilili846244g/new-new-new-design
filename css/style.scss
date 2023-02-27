@@ -1,292 +1,4 @@
-/******************  section 1 - section 4 **********************/
-
-@mixin section-hero-text-img {
-  max-width: 50vw;
-  height: 60vh;
-  margin-inline: auto;
-  margin-top: 80px;
-  @media (min-width: 1399px) and (max-width: 1850px) {
-    max-width: 55vw;
-  }
-  @media (min-width: 991px) and (max-width: 1398px) {
-    max-width: 65vw;
-    height: 50vh;
-  }
-  @media (min-width: 768px) and (max-width: 990px) {
-    max-width: 65vw;
-    height: 40vh;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    max-width: 50vw;
-    height: auto;
-    margin-top: 0px;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    max-width: 65vw;
-    height: auto;
-    margin-top: 0px;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    max-width: 90vw;
-    height: auto;
-    margin-top: 0px;
-  }
-}
-
-@mixin outt-part {
-  position: relative;
-  clip-path: polygon(
-    50% 0,
-    93.33% 25%,
-    93.33% 75%,
-    50% 100%,
-    6.67% 75%,
-    6.67% 25%
-  );
-  overflow: hidden;
-  width: 968.73px;
-  height: 550px;
-  @media (min-width: 1300px) and (max-width: 1566px) {
-    width: 841.8px;
-    height: 500px;
-  }
-  @media (min-width: 989px) and (max-width: 1299px) {
-    width: 694.05px;
-    height: 430px;
-  }
-  @media (min-width: 768px) and (max-width: 988px) {
-    width: 668.8px;
-    height: 400px;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    width: 400px;
-    height: 400px;
-    margin-left: -158px;
-  }
-  @media (min-width: 100px) and (max-width: 575px) {
-    width: 300px;
-    height: 300px;
-    margin-left: -150px;
-  }
-}
-
-@mixin hero-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: fill;
-}
-
-@mixin section-title {
-  margin-left: -180px;
-  width: 100%;
-  z-index: 1;
-  @media (min-width: 768px) and (max-width: 1299px) {
-    margin-left: -150px;
-  }
-  @media (min-width: 100px) and (max-width: 767px) {
-    margin-top: -120px;
-    margin-left: 0px;
-  }
-}
-
-@mixin hero-h1 {
-  word-break: break-all;
-  font-size: 3.5vw;
-  font-weight: bold;
-  color: #fff;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 6vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 6.8vw;
-    font-weight: bold;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 8.5vw;
-  }
-}
-
-@mixin section-p {
-  word-break: break-all;
-  font-size: 1.8vw;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 2.6vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 3vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 4.5vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 5vw;
-  }
-}
-
-@mixin an-p {
-  word-break: break-all;
-  font-size: 1.8vw;
-  text-align: center;
-  margin: 10px 0;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 2.4vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2.6vw;
-    font-weight: 500;
-    line-height: 24px;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 3.5vw;
-    font-weight: 500;
-    line-height: 20px;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 4.5vw;
-    font-weight: 500;
-    line-height: 20px;
-  }
-}
-
-@mixin hero-btn {
-  padding: 10px 30px;
-  border-radius: 25px;
-  font-size: 1vw;
-  cursor: pointer !important;
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.5vw;
-    width: 80%;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-    width: 80%;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-    width: 80%;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.8vw;
-    width: 80%;
-  }
-}
-
-@mixin hero-hero {
-  width: 100%;
-  height: auto !important;
-  z-index: 1000;
-  overflow: visible;
-  padding-bottom: 50px;
-}
-
-/******************  section 1 - section 4 end  **********************/
-
-/***************** 企業責任-1 -3  ***********************************/
-
-@mixin so-logo {
-  width: 100px;
-  height: 100px;
-  @media (min-width: 200px) and (max-width: 989px) {
-    width: 70px;
-    height: 70px;
-  }
-}
-
-@mixin so-h1 {
-  color: #fff;
-  font-size: 2.2vw;
-  padding: 15px 0;
-  font-weight: 700;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 3.5vw;
-    padding: 0;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 4vw;
-    padding: 0;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 5vw;
-    padding: 0;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 6vw;
-    padding: 0;
-  }
-}
-
-@mixin so-p {
-  color: #fff;
-  word-break: break-all;
-  font-size: 1vw;
-  line-height: 30px;
-  text-align: justify;
-  @media (min-width: 768px) and (max-width: 989px) {
-    font-size: 1.8vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.5vw;
-  }
-}
-
-@mixin soso-flex-img-h1 {
-  @media (min-width: 100px) and (max-width: 991px) {
-    display: flex;
-    align-items: end;
-  }
-}
-
-@mixin footer-h4 {
-  font-size: 1.5vw;
-  font-weight: 700;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.8vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 3.3vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 4.2vw;
-  }
-}
-
-@mixin footer-text {
-  font-size: 1vw;
-  text-decoration: none;
-  color: rgb(63, 62, 62);
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 1.5vw;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    font-size: 2vw;
-  }
-  @media (min-width: 400px) and (max-width: 575px) {
-    font-size: 2.8vw;
-  }
-  @media (min-width: 100px) and (max-width: 399px) {
-    font-size: 3.8vw;
-  }
-}
-
-/***************** 企業責任-1 -3 end ***********************************/
-
+@import "_mixin.scss";
 $background-color-0: rgba(38, 38, 38, 1);
 $background-color-1: rgba(139, 69, 69, 1);
 $background-color-2: rgba(209, 154, 0, 1);
@@ -639,10 +351,18 @@ html {
         h1 {
           @include hero-h1;
         }
-        p {
-          @include section-p;
+        img {
+          width: 80%;
         }
       }
+    }
+  }
+  .center-p {
+    p {
+      @include section-p;
+    }
+    .btn-1 {
+      @include hero-btn-1($text-color-1);
     }
   }
   .text-an {
@@ -696,6 +416,14 @@ html {
       }
     }
   }
+  .center-p {
+    p {
+      @include section-p;
+    }
+    .btn-1 {
+      @include hero-btn-1($text-color-2);
+    }
+  }
   .text-an {
     p {
       @include an-p;
@@ -746,6 +474,14 @@ html {
       }
     }
   }
+  .center-p {
+    p {
+      @include section-p;
+    }
+    .btn-1 {
+      @include hero-btn-1($text-color-3);
+    }
+  }
   .text-an {
     p {
       @include an-p;
@@ -794,6 +530,14 @@ html {
           @include section-p;
         }
       }
+    }
+  }
+  .center-p {
+    p {
+      @include section-p;
+    }
+    .btn-1 {
+      @include hero-btn-1($text-color-4);
     }
   }
   .text-an {

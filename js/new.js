@@ -266,8 +266,29 @@ gsap.from("#section-1-p", 2, {
     scrub: 1,
   },
 });
+/**************** section-1  btn  ********************************* */
+var btnButton = document.getElementById("btn-11");
+var t6 = gsap.timeline({
+  paused: true,
+});
+var t6 = gsap.timeline();
+t6.to("#scetion-1-an p", 1.5, {
+  display: "block",
+  opacity: 1,
+  x: 20,
+  ease: "easeIn",
+  stagger: 0.5,
+});
 
-gsap.from("#scetion-1-an p", 3, {
+t6.reverse();
+btnButton.addEventListener("click", function () {
+  t6.reversed(!t6.reversed());
+});
+
+/**************** btn  ********************************* */
+
+/* gsap.from("#scetion-1-an p", 3, {
+  display: "block",
   opacity: 0,
   x: 20,
   ease: "easeIn",
@@ -279,7 +300,7 @@ gsap.from("#scetion-1-an p", 3, {
     end: "bottom bottom",
     scrub: 3,
   },
-});
+}); */
 
 // =================== section 2 ==========================
 gsap.from(".ts-hero__section-2", 1, {
@@ -331,19 +352,25 @@ gsap.from("#section-2-p", 2, {
   },
 });
 
-gsap.from("#scetion-2-an p", 3, {
-  opacity: 0,
+/**************** section-2  btn  ********************************* */
+var btnButton = document.getElementById("btn-22");
+var t7 = gsap.timeline({
+  paused: true,
+});
+var t7 = gsap.timeline();
+t7.to("#scetion-2-an p", 1.5, {
+  display: "block",
+  opacity: 1,
   x: 20,
   ease: "easeIn",
   stagger: 0.5,
-  scrollTrigger: {
-    trigger: "#scetion-2-an",
-    //  markers: true,
-    start: "top 60%",
-    end: "bottom bottom",
-    scrub: 3,
-  },
 });
+
+t7.reverse();
+btnButton.addEventListener("click", function () {
+  t7.reversed(!t7.reversed());
+});
+
 // =================== section 3 ==========================
 gsap.from(".ts-hero__section-3", 1, {
   opacity: 0,
@@ -394,18 +421,23 @@ gsap.from("#section-3-p", 2, {
   },
 });
 
-gsap.from("#scetion-3-an p", 3, {
-  opacity: 0,
+/**************** section-3  btn  ********************************* */
+var btnButton = document.getElementById("btn-33");
+var t8 = gsap.timeline({
+  paused: true,
+});
+var t8 = gsap.timeline();
+t8.to("#scetion-3-an p", 1.5, {
+  display: "block",
+  opacity: 1,
   x: 20,
   ease: "easeIn",
   stagger: 0.5,
-  scrollTrigger: {
-    trigger: "#scetion-3-an",
-    //  markers: true,
-    start: "top 60%",
-    end: "bottom bottom",
-    scrub: 3,
-  },
+});
+
+t8.reverse();
+btnButton.addEventListener("click", function () {
+  t8.reversed(!t8.reversed());
 });
 // =================== section 4 ==========================
 gsap.from(".ts-hero__section-4", 1, {
@@ -457,18 +489,23 @@ gsap.from("#section-4-p", 2, {
   },
 });
 
-gsap.from("#scetion-4-an p", 3, {
-  opacity: 0,
+/**************** section-3  btn  ********************************* */
+var btnButton = document.getElementById("btn-44");
+var t9 = gsap.timeline({
+  paused: true,
+});
+var t9 = gsap.timeline();
+t9.to("#scetion-4-an p", 1.5, {
+  display: "block",
+  opacity: 1,
   x: 20,
   ease: "easeIn",
   stagger: 0.5,
-  scrollTrigger: {
-    trigger: "#scetion-4-an",
-    //  markers: true,
-    start: "top center",
-    end: "bottom bottom",
-    scrub: 3,
-  },
+});
+
+t9.reverse();
+btnButton.addEventListener("click", function () {
+  t9.reversed(!t9.reversed());
 });
 
 // =================== 企業責任-1  section 5  ==========================
