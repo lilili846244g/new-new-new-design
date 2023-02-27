@@ -45,6 +45,7 @@ t1.to(".fullpage-menu", 0, {
   ease: "Expo.easeInOut",
 });
 t1.from(".menu-bg span", 1, {
+  display: "block",
   x: "100%",
   stagger: 0.1,
   ease: "Expo.easeInOut",
