@@ -155,7 +155,7 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
   var color = elem.getAttribute("data-color");
   ScrollTrigger.create({
     trigger: elem,
-    start: "30% 90%",
+    start: "62% 90%",
     end: "bottom 98%",
     onEnter: () => gsap.to(".section-main", { backgroundColor: color }),
     /*onLeave: () =>
@@ -163,7 +163,7 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     onLeaveBack: () =>
       gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
-    //markers: true,
+    markers: true,
   });
 });
 
@@ -273,12 +273,11 @@ var t6 = gsap.timeline({
   paused: true,
 });
 var t6 = gsap.timeline();
-t6.to("#scetion-1-an p", 1.5, {
+t6.to("#scetion-1-an", 1, {
   display: "block",
   opacity: 1,
   x: 20,
   ease: "easeIn",
-  stagger: 0.5,
 });
 
 t6.reverse();
@@ -359,7 +358,7 @@ var t7 = gsap.timeline({
   paused: true,
 });
 var t7 = gsap.timeline();
-t7.to("#scetion-2-an p", 1.5, {
+t7.to("#scetion-2-an", 1, {
   display: "block",
   opacity: 1,
   x: 20,
@@ -428,7 +427,7 @@ var t8 = gsap.timeline({
   paused: true,
 });
 var t8 = gsap.timeline();
-t8.to("#scetion-3-an p", 1.5, {
+t8.to("#scetion-3-an", 1, {
   display: "block",
   opacity: 1,
   x: 20,
@@ -490,13 +489,13 @@ gsap.from("#section-4-p", 2, {
   },
 });
 
-/**************** section-3  btn  ********************************* */
+/**************** section-4  btn  ********************************* */
 var btnButton = document.getElementById("btn-44");
 var t9 = gsap.timeline({
   paused: true,
 });
 var t9 = gsap.timeline();
-t9.to("#scetion-4-an p", 1.5, {
+t9.to("#scetion-4-an", 1, {
   display: "block",
   opacity: 1,
   x: 20,
