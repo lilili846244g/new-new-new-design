@@ -1972,7 +1972,7 @@ html {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 19px;
   }
 }
 @media (min-width: 100px) and (max-width: 575px) {
@@ -1981,7 +1981,7 @@ html {
     height: auto;
     overflow: visible;
     margin-bottom: 10px;
-    margin-top: 0px;
+    margin-top: 19px;
   }
 }
 .ts-hero__section-7-hero .container .section-7-right {
