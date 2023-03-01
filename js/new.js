@@ -277,9 +277,9 @@ var t6 = gsap.timeline({
 var t6 = gsap.timeline();
 t6.to("#scetion-1-an", 1, {
   display: "block",
-  zIndex: 100,
+
   opacity: 1,
-  x: 20,
+  x: 0,
   ease: "easeIn",
 });
 
@@ -364,7 +364,7 @@ var t7 = gsap.timeline();
 t7.to("#scetion-2-an", 1, {
   display: "block",
   opacity: 1,
-  x: 20,
+  x: 10,
   ease: "easeIn",
   stagger: 0.5,
 });
@@ -433,7 +433,7 @@ var t8 = gsap.timeline();
 t8.to("#scetion-3-an", 1, {
   display: "block",
   opacity: 1,
-  x: 20,
+  x: 10,
   ease: "easeIn",
   stagger: 0.5,
 });
@@ -501,7 +501,7 @@ var t9 = gsap.timeline();
 t9.to("#scetion-4-an", 1, {
   display: "block",
   opacity: 1,
-  x: 20,
+  x: 10,
 
   ease: "easeIn",
   stagger: 0.5,
