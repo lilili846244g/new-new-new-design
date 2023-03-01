@@ -40,7 +40,13 @@ menuBar.to(
 menuBar.reverse();
 
 var t1 = gsap.timeline();
-
+/* t1.set(".fullpage-menu", { css: { zIndex: 10 } });
+t1.to(".section-main"),
+  0,
+  {
+    zIndex: -10,
+  };
+ */
 t1.to(".fullpage-menu", 0, {
   display: "block",
   ease: "Expo.easeInOut",
@@ -55,7 +61,7 @@ t1.to(".mb-ts-nav", 0, {
   display: "block",
 });
 t1.from(
-  ".mb-link ",
+  ".mb-link",
   1.5,
   {
     y: "100%",
@@ -67,7 +73,6 @@ t1.from(
 );
 
 t1.reverse();
-
 menuToggle.addEventListener("click", function () {
   menuBar.reversed(!menuBar.reversed());
   t1.reversed(!t1.reversed());
@@ -270,13 +275,14 @@ gsap.from("#section-1-p", 2, {
 });
 /**************** section-1  btn-11  ********************************* */
 var btnButton = document.getElementById("btn-11");
-
+/* t6.set(".fullpage-menu", { css: { zIndex: -1 } }); */
 var t6 = gsap.timeline({
   paused: true,
 });
 var t6 = gsap.timeline();
 t6.to("#scetion-1-an", 1, {
   display: "block",
+  zIndex: 100,
   opacity: 1,
   x: 20,
   ease: "easeIn",
@@ -354,7 +360,7 @@ gsap.from("#section-2-p", 2, {
   },
 });
 
-/**************** section-2  btn  ********************************* */
+/**************** section-2  btn -22 ********************************* */
 var btnButton = document.getElementById("btn-22");
 var t7 = gsap.timeline({
   paused: true,
@@ -491,7 +497,7 @@ gsap.from("#section-4-p", 2, {
   },
 });
 
-/**************** section-4  btn  ********************************* */
+/**************** section-4  btn-44  ********************************* */
 var btnButton = document.getElementById("btn-44");
 var t9 = gsap.timeline({
   paused: true,
@@ -501,6 +507,7 @@ t9.to("#scetion-4-an", 1, {
   display: "block",
   opacity: 1,
   x: 20,
+
   ease: "easeIn",
   stagger: 0.5,
 });
