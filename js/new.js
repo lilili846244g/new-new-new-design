@@ -40,16 +40,11 @@ menuBar.to(
 menuBar.reverse();
 
 var t1 = gsap.timeline();
-/* t1.set(".fullpage-menu", { css: { zIndex: 10 } });
-t1.to(".section-main"),
-  0,
-  {
-    zIndex: -10,
-  };
- */
+
 t1.to(".fullpage-menu", 0, {
   display: "block",
   ease: "Expo.easeInOut",
+  zIndex: 12,
 });
 t1.from(".menu-bg span", 1, {
   display: "block",
