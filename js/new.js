@@ -44,7 +44,6 @@ var t1 = gsap.timeline();
 t1.to(".fullpage-menu", 0, {
   display: "block",
   ease: "Expo.easeInOut",
-  zIndex: 12,
 });
 t1.from(".menu-bg span", 1, {
   display: "block",

@@ -50,6 +50,7 @@ html {
   height: 100vh;
   display: none !important;
   z-index: 10;
+  pointer-events: none;
   @media (min-width: 100px) and (max-width: 990px) {
     display: block !important;
   }
@@ -335,8 +336,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
   &-hero {
     @include hero-hero;
     .sec1-hero-title-img {
@@ -393,8 +393,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
   @media (min-width: 200px) and (max-width: 599px) {
     padding: 1rem;
   }
@@ -455,8 +454,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
   @media (min-width: 200px) and (max-width: 599px) {
     padding: 1rem;
   }
@@ -516,8 +514,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
   @media (min-width: 200px) and (max-width: 599px) {
     padding: 1rem;
   }

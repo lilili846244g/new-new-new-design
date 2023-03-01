@@ -36,6 +36,7 @@ html {
   height: 100vh;
   display: none !important;
   z-index: 10;
+  pointer-events: none;
 }
 @media (min-width: 100px) and (max-width: 990px) {
   .fullpage-menu {
@@ -372,8 +373,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
 }
 .ts-hero__section-1-hero {
   width: 100%;
@@ -544,18 +544,18 @@ html {
   }
 }
 .ts-hero__section-1 .center-p .btn-1 {
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   color: rgb(219, 178, 178);
   cursor: pointer !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-1 .center-p .btn-1 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .ts-hero__section-1 .center-p .btn-1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -647,8 +647,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
 }
 @media (min-width: 200px) and (max-width: 599px) {
   .ts-hero__section-2 {
@@ -849,18 +848,18 @@ html {
   }
 }
 .ts-hero__section-2 .center-p .btn-1 {
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   color: rgb(255, 244, 201);
   cursor: pointer !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-2 .center-p .btn-1 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .ts-hero__section-2 .center-p .btn-1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -952,8 +951,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
 }
 @media (min-width: 200px) and (max-width: 599px) {
   .ts-hero__section-3 {
@@ -1153,18 +1151,18 @@ html {
   }
 }
 .ts-hero__section-3 .center-p .btn-1 {
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   color: rgb(189, 217, 228);
   cursor: pointer !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-3 .center-p .btn-1 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .ts-hero__section-3 .center-p .btn-1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -1256,8 +1254,7 @@ html {
   width: 100%;
   height: auto !important;
   padding: 2rem;
-  position: relative !important;
-  z-index: 11 !important;
+  position: relative;
 }
 @media (min-width: 200px) and (max-width: 599px) {
   .ts-hero__section-4 {
@@ -1457,18 +1454,18 @@ html {
   }
 }
 .ts-hero__section-4 .center-p .btn-1 {
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   color: rgb(119, 208, 205);
   cursor: pointer !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .ts-hero__section-4 .center-p .btn-1 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .ts-hero__section-4 .center-p .btn-1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
