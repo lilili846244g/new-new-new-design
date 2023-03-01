@@ -147,18 +147,20 @@ html {
 
 .ts {
   &-nav {
-    width: 100%;
+    width: 40%;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     z-index: 10000;
     @media (min-width: 100px) and (max-width: 991px) {
       justify-content: flex-end;
     }
     .menu-toggle {
+      position: fixed;
+      top: 5px;
+      right: 5px;
       background: transparent;
       border: none;
       cursor: pointer;

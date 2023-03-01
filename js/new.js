@@ -40,6 +40,7 @@ menuBar.to(
 menuBar.reverse();
 
 var t1 = gsap.timeline();
+
 t1.to(".fullpage-menu", 0, {
   display: "block",
   ease: "Expo.easeInOut",
@@ -267,8 +268,9 @@ gsap.from("#section-1-p", 2, {
     scrub: 1,
   },
 });
-/**************** section-1  btn  ********************************* */
+/**************** section-1  btn-11  ********************************* */
 var btnButton = document.getElementById("btn-11");
+
 var t6 = gsap.timeline({
   paused: true,
 });
