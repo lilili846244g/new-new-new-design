@@ -101,6 +101,7 @@ html {
             overflow: hidden;
             transform: scale(1);
             transition: 0.3s ease;
+            pointer-events: visible;
             @media (min-width: 500px) and (max-width: 989px) {
               font-size: 26px;
             }

@@ -94,6 +94,7 @@ html {
   overflow: hidden;
   transform: scale(1);
   transition: 0.3s ease;
+  pointer-events: visible;
 }
 @media (min-width: 500px) and (max-width: 989px) {
   .fullpage-menu .fullpage-menu-inner .menu-bg .mb-ts-nav .mb-ts-menu a {
