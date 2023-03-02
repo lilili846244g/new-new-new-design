@@ -352,6 +352,9 @@ html {
       }
       .sec1-hero-title {
         @include section-title;
+        img {
+          @include section-img;
+        }
         h1 {
           @include hero-h1;
         }
@@ -412,6 +415,9 @@ html {
       }
       .sec2-hero-title {
         @include section-title;
+        img {
+          @include section-img;
+        }
         h1 {
           @include hero-h1;
         }
@@ -463,6 +469,9 @@ html {
     @include hero-hero;
     .sec3-hero-title-img {
       @include section-hero-text-img;
+      img {
+        @include section-img;
+      }
       .outt {
         @include outt-part;
         img {
@@ -533,6 +542,9 @@ html {
       }
       .sec4-hero-title {
         @include section-title;
+        img {
+          @include section-img;
+        }
         h1 {
           @include hero-h1;
         }
@@ -607,12 +619,12 @@ html {
         overflow: visible;
       }
       img {
-        width: 70%;
+        width: 61%;
         height: auto;
         border-radius: 36px;
         float: right;
         @media (min-width: 1399px) and (max-width: 1850px) {
-          width: 60%;
+          width: 50%;
           height: 60%;
         }
         @media (min-width: 992px) and (max-width: 1398px) {

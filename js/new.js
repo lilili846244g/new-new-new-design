@@ -281,6 +281,9 @@ t6.to("#scetion-1-an", 1, {
   x: 0,
   ease: "easeIn",
 });
+t6.to(btnButton, 0, {
+  display: "none",
+});
 
 t6.reverse();
 btnButton.addEventListener("click", function () {
@@ -367,7 +370,9 @@ t7.to("#scetion-2-an", 1, {
   ease: "easeIn",
   stagger: 0.5,
 });
-
+t7.to(btnButton, 0, {
+  display: "none",
+});
 t7.reverse();
 btnButton.addEventListener("click", function () {
   t7.reversed(!t7.reversed());
@@ -436,7 +441,9 @@ t8.to("#scetion-3-an", 1, {
   ease: "easeIn",
   stagger: 0.5,
 });
-
+t8.to(btnButton, 0, {
+  display: "none",
+});
 t8.reverse();
 btnButton.addEventListener("click", function () {
   t8.reversed(!t8.reversed());
@@ -501,9 +508,11 @@ t9.to("#scetion-4-an", 1, {
   display: "block",
   opacity: 1,
   x: 10,
-
   ease: "easeIn",
   stagger: 0.5,
+});
+t9.to(btnButton, 0, {
+  display: "none",
 });
 
 t9.reverse();
