@@ -1547,7 +1547,7 @@ html {
 }
 .ts-hero__section-4 .center-p h5 {
   font-size: 1vw;
-  color: rgb(119, 208, 205);
+  color: #fff;
 }
 @media (min-width: 768px) and (max-width: 989px) {
   .ts-hero__section-4 .center-p h5 {
