@@ -95,34 +95,8 @@ links.forEach((btn, index) => {
       duration: 1,
       scrollTo: { y: sections[index], ease: "power2" },
     });
-
-    /*  for (let i = 0; i < 6; i++) {
-      prev = links;
-      if (prev[i].classList.contains("active")) {
-        prev[i].classList.remove("active");
-      }
-    }
-    btn.classList.add("active");  */
   });
 });
-
-/* sections.forEach((section, i) => {
-  ScrollTrigger.create({
-    trigger: section,
-    start: "to top",
-    end: "bottom bottom",
-    //markers: true,
-    onToggle: (self) => {
-      if (self.isActive) {
-        gsap.to(links[i], { fontWeight: 700 });
-        gsap.to(navImg[i], { opacity: 1 });
-      } else {
-        gsap.to(links[i], { fontWeight: 100 });
-        gsap.to(navImg[i], { opacity: 0 });
-      }
-    },
-  });
-}); */
 
 sections.forEach((section, i) => {
   ScrollTrigger.create({
