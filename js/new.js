@@ -101,8 +101,10 @@ links.forEach((btn, index) => {
 sections.forEach((section, i) => {
   ScrollTrigger.create({
     trigger: section,
-    start: "top top",
-    end: "bottom bottom",
+    /*   start: "top top",
+    end: "bottom bottom", */
+    start: 0,
+    end: (i + 1) * innerHeight - innerHeight / 2,
     //markers: true,
     onLeave: () => {
       if (links[i + 1]) {
@@ -129,13 +131,9 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
   var color = elem.getAttribute("data-color");
   ScrollTrigger.create({
     trigger: elem,
-    start: "62% 90%",
+    start: "50% 90%",
     end: "bottom 98%",
-    onEnter: () => gsap.to(".section-main", { backgroundColor: color }),
-    /*onLeave: () =>
-      gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 1)" }),
-    onLeaveBack: () =>
-      gsap.to(".bkg-an", { backgroundColor: "rgba(139, 69, 69, 0.9)" }),*/
+    onLeave: () => gsap.to(".section-main", { backgroundColor: color }),
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
     //markers: true,
   });
