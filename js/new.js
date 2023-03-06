@@ -101,10 +101,10 @@ links.forEach((btn, index) => {
 sections.forEach((section, i) => {
   ScrollTrigger.create({
     trigger: section,
-    /*   start: "top top",
-    end: "bottom bottom", */
-    start: 0,
-    end: (i + 1) * innerHeight - innerHeight / 2,
+    start: "top top",
+    end: "bottom bottom",
+    /*   start: 0,
+    end: (i + 1) * innerHeight - innerHeight / 2, */
     //markers: true,
     onLeave: () => {
       if (links[i + 1]) {
@@ -134,6 +134,7 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
     start: "50% 90%",
     end: "bottom 98%",
     onLeave: () => gsap.to(".section-main", { backgroundColor: color }),
+
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
     //markers: true,
   });
@@ -248,7 +249,6 @@ var t6 = gsap.timeline({
 var t6 = gsap.timeline();
 t6.to("#scetion-1-an", 1, {
   display: "block",
-
   opacity: 1,
   x: 0,
   ease: "easeIn",
