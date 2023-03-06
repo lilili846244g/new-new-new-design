@@ -560,6 +560,7 @@ html {
     }
     h5 {
       font-size: 1vw;
+      color: $text-color-4;
       @media (min-width: 768px) and (max-width: 989px) {
         font-size: 2vw;
       }
