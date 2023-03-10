@@ -106,6 +106,7 @@ sections.forEach((section, i) => {
     /*   start: 0,
     end: (i + 1) * innerHeight - innerHeight / 2, */
     //markers: true,
+
     onLeave: () => {
       if (links[i + 1]) {
         gsap.to(links[i + 1], { fontWeight: 700 });

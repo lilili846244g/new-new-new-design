@@ -2274,6 +2274,11 @@ footer .footer ul li .img-4 {
   border-radius: 5px;
   margin-right: 50px;
 }
+@media (min-width: 100px) and (max-width: 565px) {
+  footer .footer ul li .img-4 {
+    width: 100% !important;
+  }
+}
 footer .box-2 .col-6 {
   opacity: 0.5;
 }
