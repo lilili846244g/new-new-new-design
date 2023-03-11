@@ -324,14 +324,9 @@ html {
     font-weight: bold;
   }
 }
-@media (min-width: 400px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 575px) {
   .ts-hero__section-0 .ts-text-con .hero-text h1 {
     font-size: 10vw;
-  }
-}
-@media (min-width: 100px) and (max-width: 399px) {
-  .ts-hero__section-0 .ts-text-con .hero-text h1 {
-    font-size: 12vw;
   }
 }
 .ts-hero__section-0 .ts-text-con .hero-text p {
@@ -505,9 +500,16 @@ html {
     width: 60vw;
   }
 }
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
     width: 60vw;
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
+    width: 60vw;
+    margin-left: 26vw;
   }
 }
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
@@ -529,11 +531,13 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 10vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 12vw;
+    margin-left: 25vw;
   }
 }
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
@@ -807,9 +811,16 @@ html {
     width: 60vw;
   }
 }
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title img {
     width: 60vw;
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title img {
+    width: 60vw;
+    margin-left: 26vw;
   }
 }
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
@@ -831,11 +842,13 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 10vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 12vw;
+    margin-left: 25vw;
   }
 }
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
@@ -1071,9 +1084,16 @@ html {
     width: 60vw;
   }
 }
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-3-hero .sec3-hero-title-img img {
     width: 60vw;
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-3-hero .sec3-hero-title-img img {
+    width: 60vw;
+    margin-left: 26vw;
   }
 }
 .ts-hero__section-3-hero .sec3-hero-title-img .outt {
@@ -1158,11 +1178,13 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 10vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 12vw;
+    margin-left: 25vw;
   }
 }
 .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
@@ -1460,9 +1482,16 @@ html {
     width: 60vw;
   }
 }
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title img {
     width: 60vw;
+    margin-left: 15vw;
+  }
+}
+@media (min-width: 100px) and (max-width: 399px) {
+  .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title img {
+    width: 60vw;
+    margin-left: 26vw;
   }
 }
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
@@ -1484,11 +1513,13 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 10vw;
+    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 12vw;
+    margin-left: 25vw;
   }
 }
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {

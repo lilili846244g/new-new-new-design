@@ -95,8 +95,13 @@
   @media (min-width: 576px) and (max-width: 767px) {
     width: 60vw;
   }
-  @media (min-width: 100px) and (max-width: 575px) {
+  @media (min-width: 400px) and (max-width: 575px) {
     width: 60vw;
+    margin-left: 15vw;
+  }
+  @media (min-width: 100px) and (max-width: 399px) {
+    width: 60vw;
+    margin-left: 26vw;
   }
 }
 
@@ -121,9 +126,27 @@
   }
   @media (min-width: 400px) and (max-width: 575px) {
     font-size: 10vw;
+    margin-left: 15vw;
   }
   @media (min-width: 100px) and (max-width: 399px) {
     font-size: 12vw;
+    margin-left: 25vw;
+  }
+}
+
+@mixin hero-main-h1 {
+  font-size: 4.1vw;
+  font-weight: bold;
+  color: #fff;
+  @media (min-width: 768px) and (max-width: 989px) {
+    font-size: 5.8vw;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    font-size: 6.8vw;
+    font-weight: bold;
+  }
+  @media (min-width: 100px) and (max-width: 575px) {
+    font-size: 10vw;
   }
 }
 
