@@ -132,12 +132,11 @@ gsap.utils.toArray(".ts-hero__sections").forEach(function (elem) {
   var color = elem.getAttribute("data-color");
   ScrollTrigger.create({
     trigger: elem,
-    start: "50% 90%",
-    end: "bottom 98%",
+    start: "10% 80%",
+    end: "50% 98%",
     onLeave: () => gsap.to(".section-main", { backgroundColor: color }),
-
     onEnterBack: () => gsap.to(".section-main", { backgroundColor: color }),
-    //markers: true,
+    markers: true,
   });
 });
 
