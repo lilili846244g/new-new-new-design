@@ -45,7 +45,7 @@ t1.to(".fullpage-menu", 0, {
   display: "block",
   ease: "Expo.easeInOut",
 });
-t1.from(".menu-bg span", 1, {
+t1.from(".menu-bg span:not(.lang_enHK):not(.lang_zhHK)", 1, {
   display: "block",
   x: "100%",
   stagger: 0.1,

@@ -942,3 +942,32 @@ footer {
 .none {
   display: none !important;
 }
+
+/*********************** Language Related  **************************************/
+.lang_button{
+	border: 1px solid white;
+	padding: 20px;
+	border-radius: 50%;
+	font-size: 16px;
+	margin-left: 20px;
+	height: 19px;
+	width: 19px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	cursor: pointer;
+	background-color: transparent;
+	color: #fff;    
+}
+.lang_selected {
+	background-color: #fff;
+	color: black;
+}
+.lang_enHK{display: none;}
+.lang_zhHK{display: initial;}

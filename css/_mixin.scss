@@ -97,11 +97,9 @@
   }
   @media (min-width: 400px) and (max-width: 575px) {
     width: 60vw;
-    margin-left: 15vw;
   }
   @media (min-width: 100px) and (max-width: 399px) {
     width: 60vw;
-    margin-left: 26vw;
   }
 }
 
@@ -126,11 +124,9 @@
   }
   @media (min-width: 400px) and (max-width: 575px) {
     font-size: 10vw;
-    margin-left: 15vw;
   }
   @media (min-width: 100px) and (max-width: 399px) {
     font-size: 12vw;
-    margin-left: 25vw;
   }
 }
 
@@ -151,7 +147,7 @@
 }
 
 @mixin section-p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
   @media (min-width: 768px) and (max-width: 989px) {
@@ -171,7 +167,7 @@
 }
 
 @mixin an-p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;

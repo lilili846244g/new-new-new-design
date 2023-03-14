@@ -330,7 +330,7 @@ html {
   }
 }
 .ts-hero__section-0 .ts-text-con .hero-text p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;
@@ -503,13 +503,11 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
     width: 60vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
     width: 60vw;
-    margin-left: 26vw;
   }
 }
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
@@ -531,20 +529,18 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 10vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title h1 {
     font-size: 12vw;
-    margin-left: 25vw;
   }
 }
 .ts-hero__section-1-hero .sec1-hero-title-img .sec1-hero-title img {
   width: 80%;
 }
 .ts-hero__section-1 .center-p p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -599,7 +595,7 @@ html {
   display: none;
 }
 .ts-hero__section-1 .text-an p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;
@@ -814,13 +810,11 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title img {
     width: 60vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title img {
     width: 60vw;
-    margin-left: 26vw;
   }
 }
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
@@ -842,17 +836,15 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 10vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title h1 {
     font-size: 12vw;
-    margin-left: 25vw;
   }
 }
 .ts-hero__section-2-hero .sec2-hero-title-img .sec2-hero-title p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
   color: #fff;
@@ -880,7 +872,7 @@ html {
   }
 }
 .ts-hero__section-2 .center-p p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -935,7 +927,7 @@ html {
   display: none;
 }
 .ts-hero__section-2 .text-an p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;
@@ -1087,13 +1079,11 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-3-hero .sec3-hero-title-img img {
     width: 60vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-3-hero .sec3-hero-title-img img {
     width: 60vw;
-    margin-left: 26vw;
   }
 }
 .ts-hero__section-3-hero .sec3-hero-title-img .outt {
@@ -1178,17 +1168,15 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 10vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title h1 {
     font-size: 12vw;
-    margin-left: 25vw;
   }
 }
 .ts-hero__section-3-hero .sec3-hero-title-img .sec3-hero-title p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -1215,7 +1203,7 @@ html {
   }
 }
 .ts-hero__section-3 .center-p p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -1270,7 +1258,7 @@ html {
   display: none;
 }
 .ts-hero__section-3 .text-an p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;
@@ -1485,13 +1473,11 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title img {
     width: 60vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title img {
     width: 60vw;
-    margin-left: 26vw;
   }
 }
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
@@ -1513,17 +1499,15 @@ html {
 @media (min-width: 400px) and (max-width: 575px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 10vw;
-    margin-left: 15vw;
   }
 }
 @media (min-width: 100px) and (max-width: 399px) {
   .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title h1 {
     font-size: 12vw;
-    margin-left: 25vw;
   }
 }
 .ts-hero__section-4-hero .sec4-hero-title-img .sec4-hero-title p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -1550,7 +1534,7 @@ html {
   }
 }
 .ts-hero__section-4 .center-p p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.8vw;
   margin-top: 80px;
 }
@@ -1635,7 +1619,7 @@ html {
   display: none;
 }
 .ts-hero__section-4 .text-an p {
-  word-break: break-all;
+  word-break: break-word;
   font-size: 1.5vw;
   text-align: center;
   margin: 10px 0;
@@ -2338,4 +2322,34 @@ footer .box-4 {
 
 .none {
   display: none !important;
+}
+
+/*********************** Language Related  **************************************/
+.lang_button {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 16px;
+  margin-left: 20px;
+  height: 19px;
+  width: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
+.lang_selected {
+  background-color: #fff;
+  color: black;
+}
+
+.lang_enHK {
+  display: none;
+}
+
+.lang_zhHK {
+  display: initial;
 }/*# sourceMappingURL=style.css.map */
